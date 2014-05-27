@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		053CFABB1934739600FB6126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053CFABA1934739600FB6126 /* Foundation.framework */; };
+		053CFABD1934739600FB6126 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053CFABC1934739600FB6126 /* CoreGraphics.framework */; };
+		053CFABF1934739600FB6126 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053CFABE1934739600FB6126 /* UIKit.framework */; };
+		053CFAC51934739600FB6126 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 053CFAC31934739600FB6126 /* InfoPlist.strings */; };
+		053CFAC71934739600FB6126 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 053CFAC61934739600FB6126 /* main.m */; };
+		053CFACB1934739600FB6126 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 053CFACA1934739600FB6126 /* AppDelegate.m */; };
+		053CFACE1934739600FB6126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053CFACC1934739600FB6126 /* Main.storyboard */; };
+		053CFAD11934739600FB6126 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 053CFAD01934739600FB6126 /* ViewController.m */; };
+		053CFAD31934739600FB6126 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053CFAD21934739600FB6126 /* Images.xcassets */; };
+		053CFADA1934739600FB6126 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053CFAD91934739600FB6126 /* XCTest.framework */; };
+		053CFADB1934739600FB6126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053CFABA1934739600FB6126 /* Foundation.framework */; };
+		053CFADC1934739600FB6126 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053CFABE1934739600FB6126 /* UIKit.framework */; };
+		053CFAE41934739600FB6126 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 053CFAE21934739600FB6126 /* InfoPlist.strings */; };
+		053CFAE61934739600FB6126 /* MBYPhotoSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 053CFAE51934739600FB6126 /* MBYPhotoSliderTests.m */; };
+		053CFAF1193473FD00FB6126 /* MBYPhotoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 053CFAF0193473FD00FB6126 /* MBYPhotoSlider.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		053CFADD1934739600FB6126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053CFAAF1934739600FB6126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 053CFAB61934739600FB6126;
+			remoteInfo = MBYPhotoSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053CFAB71934739600FB6126 /* MBYPhotoSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBYPhotoSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		053CFABA1934739600FB6126 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		053CFABC1934739600FB6126 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		053CFABE1934739600FB6126 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		053CFAC21934739600FB6126 /* MBYPhotoSlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MBYPhotoSlider-Info.plist"; sourceTree = "<group>"; };
+		053CFAC41934739600FB6126 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		053CFAC61934739600FB6126 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		053CFAC81934739600FB6126 /* MBYPhotoSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBYPhotoSlider-Prefix.pch"; sourceTree = "<group>"; };
+		053CFAC91934739600FB6126 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		053CFACA1934739600FB6126 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		053CFACD1934739600FB6126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		053CFACF1934739600FB6126 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		053CFAD01934739600FB6126 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		053CFAD21934739600FB6126 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		053CFAD81934739600FB6126 /* MBYPhotoSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBYPhotoSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		053CFAD91934739600FB6126 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		053CFAE11934739600FB6126 /* MBYPhotoSliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MBYPhotoSliderTests-Info.plist"; sourceTree = "<group>"; };
+		053CFAE31934739600FB6126 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		053CFAE51934739600FB6126 /* MBYPhotoSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBYPhotoSliderTests.m; sourceTree = "<group>"; };
+		053CFAEF193473FD00FB6126 /* MBYPhotoSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBYPhotoSlider.h; sourceTree = "<group>"; };
+		053CFAF0193473FD00FB6126 /* MBYPhotoSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBYPhotoSlider.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		053CFAB41934739600FB6126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053CFABD1934739600FB6126 /* CoreGraphics.framework in Frameworks */,
+				053CFABF1934739600FB6126 /* UIKit.framework in Frameworks */,
+				053CFABB1934739600FB6126 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053CFAD51934739600FB6126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053CFADA1934739600FB6126 /* XCTest.framework in Frameworks */,
+				053CFADC1934739600FB6126 /* UIKit.framework in Frameworks */,
+				053CFADB1934739600FB6126 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		053CFAAE1934739600FB6126 = {
+			isa = PBXGroup;
+			children = (
+				053CFAC01934739600FB6126 /* MBYPhotoSlider */,
+				053CFADF1934739600FB6126 /* MBYPhotoSliderTests */,
+				053CFAB91934739600FB6126 /* Frameworks */,
+				053CFAB81934739600FB6126 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		053CFAB81934739600FB6126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				053CFAB71934739600FB6126 /* MBYPhotoSlider.app */,
+				053CFAD81934739600FB6126 /* MBYPhotoSliderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		053CFAB91934739600FB6126 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				053CFABA1934739600FB6126 /* Foundation.framework */,
+				053CFABC1934739600FB6126 /* CoreGraphics.framework */,
+				053CFABE1934739600FB6126 /* UIKit.framework */,
+				053CFAD91934739600FB6126 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		053CFAC01934739600FB6126 /* MBYPhotoSlider */ = {
+			isa = PBXGroup;
+			children = (
+				053CFAC91934739600FB6126 /* AppDelegate.h */,
+				053CFACA1934739600FB6126 /* AppDelegate.m */,
+				053CFACC1934739600FB6126 /* Main.storyboard */,
+				053CFACF1934739600FB6126 /* ViewController.h */,
+				053CFAD01934739600FB6126 /* ViewController.m */,
+				053CFAD21934739600FB6126 /* Images.xcassets */,
+				053CFAC11934739600FB6126 /* Supporting Files */,
+				053CFAEF193473FD00FB6126 /* MBYPhotoSlider.h */,
+				053CFAF0193473FD00FB6126 /* MBYPhotoSlider.m */,
+			);
+			path = MBYPhotoSlider;
+			sourceTree = "<group>";
+		};
+		053CFAC11934739600FB6126 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				053CFAC21934739600FB6126 /* MBYPhotoSlider-Info.plist */,
+				053CFAC31934739600FB6126 /* InfoPlist.strings */,
+				053CFAC61934739600FB6126 /* main.m */,
+				053CFAC81934739600FB6126 /* MBYPhotoSlider-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		053CFADF1934739600FB6126 /* MBYPhotoSliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				053CFAE51934739600FB6126 /* MBYPhotoSliderTests.m */,
+				053CFAE01934739600FB6126 /* Supporting Files */,
+			);
+			path = MBYPhotoSliderTests;
+			sourceTree = "<group>";
+		};
+		053CFAE01934739600FB6126 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				053CFAE11934739600FB6126 /* MBYPhotoSliderTests-Info.plist */,
+				053CFAE21934739600FB6126 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		053CFAB61934739600FB6126 /* MBYPhotoSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 053CFAE91934739600FB6126 /* Build configuration list for PBXNativeTarget "MBYPhotoSlider" */;
+			buildPhases = (
+				053CFAB31934739600FB6126 /* Sources */,
+				053CFAB41934739600FB6126 /* Frameworks */,
+				053CFAB51934739600FB6126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBYPhotoSlider;
+			productName = MBYPhotoSlider;
+			productReference = 053CFAB71934739600FB6126 /* MBYPhotoSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		053CFAD71934739600FB6126 /* MBYPhotoSliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 053CFAEC1934739600FB6126 /* Build configuration list for PBXNativeTarget "MBYPhotoSliderTests" */;
+			buildPhases = (
+				053CFAD41934739600FB6126 /* Sources */,
+				053CFAD51934739600FB6126 /* Frameworks */,
+				053CFAD61934739600FB6126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				053CFADE1934739600FB6126 /* PBXTargetDependency */,
+			);
+			name = MBYPhotoSliderTests;
+			productName = MBYPhotoSliderTests;
+			productReference = 053CFAD81934739600FB6126 /* MBYPhotoSliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		053CFAAF1934739600FB6126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Takeru Yoshihara";
+				TargetAttributes = {
+					053CFAD71934739600FB6126 = {
+						TestTargetID = 053CFAB61934739600FB6126;
+					};
+				};
+			};
+			buildConfigurationList = 053CFAB21934739600FB6126 /* Build configuration list for PBXProject "MBYPhotoSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 053CFAAE1934739600FB6126;
+			productRefGroup = 053CFAB81934739600FB6126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				053CFAB61934739600FB6126 /* MBYPhotoSlider */,
+				053CFAD71934739600FB6126 /* MBYPhotoSliderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		053CFAB51934739600FB6126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053CFAD31934739600FB6126 /* Images.xcassets in Resources */,
+				053CFAC51934739600FB6126 /* InfoPlist.strings in Resources */,
+				053CFACE1934739600FB6126 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053CFAD61934739600FB6126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053CFAE41934739600FB6126 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		053CFAB31934739600FB6126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053CFAF1193473FD00FB6126 /* MBYPhotoSlider.m in Sources */,
+				053CFAD11934739600FB6126 /* ViewController.m in Sources */,
+				053CFACB1934739600FB6126 /* AppDelegate.m in Sources */,
+				053CFAC71934739600FB6126 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053CFAD41934739600FB6126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053CFAE61934739600FB6126 /* MBYPhotoSliderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		053CFADE1934739600FB6126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 053CFAB61934739600FB6126 /* MBYPhotoSlider */;
+			targetProxy = 053CFADD1934739600FB6126 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		053CFAC31934739600FB6126 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				053CFAC41934739600FB6126 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		053CFACC1934739600FB6126 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				053CFACD1934739600FB6126 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		053CFAE21934739600FB6126 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				053CFAE31934739600FB6126 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		053CFAE71934739600FB6126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		053CFAE81934739600FB6126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		053CFAEA1934739600FB6126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBYPhotoSlider/MBYPhotoSlider-Prefix.pch";
+				INFOPLIST_FILE = "MBYPhotoSlider/MBYPhotoSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		053CFAEB1934739600FB6126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBYPhotoSlider/MBYPhotoSlider-Prefix.pch";
+				INFOPLIST_FILE = "MBYPhotoSlider/MBYPhotoSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		053CFAED1934739600FB6126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MBYPhotoSlider.app/MBYPhotoSlider";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBYPhotoSlider/MBYPhotoSlider-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MBYPhotoSliderTests/MBYPhotoSliderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		053CFAEE1934739600FB6126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MBYPhotoSlider.app/MBYPhotoSlider";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBYPhotoSlider/MBYPhotoSlider-Prefix.pch";
+				INFOPLIST_FILE = "MBYPhotoSliderTests/MBYPhotoSliderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		053CFAB21934739600FB6126 /* Build configuration list for PBXProject "MBYPhotoSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053CFAE71934739600FB6126 /* Debug */,
+				053CFAE81934739600FB6126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		053CFAE91934739600FB6126 /* Build configuration list for PBXNativeTarget "MBYPhotoSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053CFAEA1934739600FB6126 /* Debug */,
+				053CFAEB1934739600FB6126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		053CFAEC1934739600FB6126 /* Build configuration list for PBXNativeTarget "MBYPhotoSliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053CFAED1934739600FB6126 /* Debug */,
+				053CFAEE1934739600FB6126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 053CFAAF1934739600FB6126 /* Project object */;
+}
