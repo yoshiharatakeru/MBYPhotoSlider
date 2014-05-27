@@ -8,6 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol MBYPhotoSliderDelegate;
+
 @interface MBYPhotoSlider : UIViewController
+
+@property (nonatomic, weak) id delegate;
+
+- (id)initWithPhotos:(NSArray*)photos;
+- (void)open;
+
+@end
+
+
+@protocol MBYPhotoSliderDelegate <NSObject>
+
 
 @end

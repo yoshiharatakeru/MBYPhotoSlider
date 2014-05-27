@@ -36,6 +36,7 @@
     NSArray *photos = @[photo_0];
     
     MBYPhotoSlider *slider = [[MBYPhotoSlider alloc]initWithPhotos:photos];
+    slider.delegate = self;
     
     [slider open];
 }
