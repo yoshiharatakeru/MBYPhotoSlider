@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		053353EE1935D08600CFCCA0 /* MBYVariableSizedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 053353ED1935D08600CFCCA0 /* MBYVariableSizedImageView.m */; };
+		053353F11935D26600CFCCA0 /* MBYImageLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 053353F01935D26600CFCCA0 /* MBYImageLayoutView.m */; };
 		053CFABB1934739600FB6126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053CFABA1934739600FB6126 /* Foundation.framework */; };
 		053CFABD1934739600FB6126 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053CFABC1934739600FB6126 /* CoreGraphics.framework */; };
 		053CFABF1934739600FB6126 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053CFABE1934739600FB6126 /* UIKit.framework */; };
@@ -35,6 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		053353641934A38700CFCCA0 /* LibMBYPhotoSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LibMBYPhotoSlider-Prefix.pch"; sourceTree = "<group>"; };
+		053353651934A38700CFCCA0 /* LibMBYPhotoSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibMBYPhotoSlider.h; sourceTree = "<group>"; };
+		053353671934A38700CFCCA0 /* LibMBYPhotoSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibMBYPhotoSlider.m; sourceTree = "<group>"; };
+		053353761934A38700CFCCA0 /* LibMBYPhotoSliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LibMBYPhotoSliderTests-Info.plist"; sourceTree = "<group>"; };
+		053353781934A38700CFCCA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0533537A1934A38700CFCCA0 /* LibMBYPhotoSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibMBYPhotoSliderTests.m; sourceTree = "<group>"; };
+		053353EC1935D08600CFCCA0 /* MBYVariableSizedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBYVariableSizedImageView.h; path = ../MBYVariableSizedImageView.h; sourceTree = "<group>"; };
+		053353ED1935D08600CFCCA0 /* MBYVariableSizedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBYVariableSizedImageView.m; path = ../MBYVariableSizedImageView.m; sourceTree = "<group>"; };
+		053353EF1935D26600CFCCA0 /* MBYImageLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBYImageLayoutView.h; sourceTree = "<group>"; };
+		053353F01935D26600CFCCA0 /* MBYImageLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBYImageLayoutView.m; sourceTree = "<group>"; };
 		053CFAB71934739600FB6126 /* MBYPhotoSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBYPhotoSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		053CFABA1934739600FB6126 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		053CFABC1934739600FB6126 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,11 +94,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		053353621934A38700CFCCA0 /* LibMBYPhotoSlider */ = {
+			isa = PBXGroup;
+			children = (
+				053353651934A38700CFCCA0 /* LibMBYPhotoSlider.h */,
+				053353671934A38700CFCCA0 /* LibMBYPhotoSlider.m */,
+				053353631934A38700CFCCA0 /* Supporting Files */,
+			);
+			path = LibMBYPhotoSlider;
+			sourceTree = "<group>";
+		};
+		053353631934A38700CFCCA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				053353641934A38700CFCCA0 /* LibMBYPhotoSlider-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		053353741934A38700CFCCA0 /* LibMBYPhotoSliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				0533537A1934A38700CFCCA0 /* LibMBYPhotoSliderTests.m */,
+				053353751934A38700CFCCA0 /* Supporting Files */,
+			);
+			path = LibMBYPhotoSliderTests;
+			sourceTree = "<group>";
+		};
+		053353751934A38700CFCCA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				053353761934A38700CFCCA0 /* LibMBYPhotoSliderTests-Info.plist */,
+				053353771934A38700CFCCA0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		053CFAAE1934739600FB6126 = {
 			isa = PBXGroup;
 			children = (
 				053CFAC01934739600FB6126 /* MBYPhotoSlider */,
 				053CFADF1934739600FB6126 /* MBYPhotoSliderTests */,
+				053353621934A38700CFCCA0 /* LibMBYPhotoSlider */,
+				053353741934A38700CFCCA0 /* LibMBYPhotoSliderTests */,
 				053CFAB91934739600FB6126 /* Frameworks */,
 				053CFAB81934739600FB6126 /* Products */,
 			);
@@ -115,6 +165,8 @@
 		053CFAC01934739600FB6126 /* MBYPhotoSlider */ = {
 			isa = PBXGroup;
 			children = (
+				053353EC1935D08600CFCCA0 /* MBYVariableSizedImageView.h */,
+				053353ED1935D08600CFCCA0 /* MBYVariableSizedImageView.m */,
 				053CFAC91934739600FB6126 /* AppDelegate.h */,
 				053CFACA1934739600FB6126 /* AppDelegate.m */,
 				053CFACC1934739600FB6126 /* Main.storyboard */,
@@ -124,6 +176,8 @@
 				053CFAC11934739600FB6126 /* Supporting Files */,
 				053CFAEF193473FD00FB6126 /* MBYPhotoSlider.h */,
 				053CFAF0193473FD00FB6126 /* MBYPhotoSlider.m */,
+				053353EF1935D26600CFCCA0 /* MBYImageLayoutView.h */,
+				053353F01935D26600CFCCA0 /* MBYImageLayoutView.m */,
 			);
 			path = MBYPhotoSlider;
 			sourceTree = "<group>";
@@ -254,6 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				053353EE1935D08600CFCCA0 /* MBYVariableSizedImageView.m in Sources */,
+				053353F11935D26600CFCCA0 /* MBYImageLayoutView.m in Sources */,
 				053CFAF1193473FD00FB6126 /* MBYPhotoSlider.m in Sources */,
 				053CFAD11934739600FB6126 /* ViewController.m in Sources */,
 				053CFACB1934739600FB6126 /* AppDelegate.m in Sources */,
@@ -280,6 +336,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		053353771934A38700CFCCA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				053353781934A38700CFCCA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		053CFAC31934739600FB6126 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +405,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "0EEFF9A4-8DCB-4040-A6A2-7E7E46C576F7";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -361,7 +426,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: TAKERU YOSHIHARA (3ZG8G95HMX)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -372,6 +437,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "0EEFF9A4-8DCB-4040-A6A2-7E7E46C576F7";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -462,6 +528,7 @@
 				053CFAEB1934739600FB6126 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		053CFAEC1934739600FB6126 /* Build configuration list for PBXNativeTarget "MBYPhotoSliderTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +537,7 @@
 				053CFAEE1934739600FB6126 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

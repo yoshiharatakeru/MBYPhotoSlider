@@ -1,0 +1,805 @@
+TMBYPhotoSlider
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/MBYPhotoSlider.app/ResourceRules.plist
+cProcessPCH /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-autoqfqpqdggojhhfgmyrsshkiys/MBYPhotoSlider-Prefix.pch.pch MBYPhotoSlider/MBYPhotoSlider-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-ccfilkgffbpfqcelvumsdesavvov/MBYPhotoSlider-Prefix.pch.pch MBYPhotoSlider/MBYPhotoSlider-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-coqnmcuqvkvnynftafshboklmodl/MBYPhotoSlider-Prefix.pch.pch MBYPhotoSlider/MBYPhotoSlider-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/ViewController.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/AppDelegate.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/main.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/ViewController.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/AppDelegate.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/main.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/ViewController.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/AppDelegate.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/main.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider normal armv7
+cLd /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider normal armv7s
+cLd /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider normal arm64
+cCreateUniversalBinary /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/MBYPhotoSlider normal armv7\ armv7s\ arm64
+cCopyStringsFile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/en.lproj/InfoPlist.strings MBYPhotoSlider/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/Base.lproj/Main.storyboard
+cCompileAssetCatalog /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/Images.xcassets
+cProcessInfoPlistFile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/Info.plist /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Info.plist
+cGenerateDSYMFile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app.dSYM /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/MBYPhotoSlider
+cProcessProductPackaging /Users/takeruyoshihara/Library/MobileDevice/Provisioning\ Profiles/0EEFF9A4-8DCB-4040-A6A2-7E7E46C576F7.mobileprovision /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/embedded.mobileprovision
+cTouch /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider.xcent
+cCodeSign /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app
+cValidate /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c00000000538299680000000000000132
+t1401067880
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c00000000532E60120000000000000094
+t1395548178
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c00000000532E60120000000000000096
+t1395548178
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000532E6012000000000000036B
+t1395548178
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000532E6013000000000000019E
+t1395548179
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005382993800000000004D7BC0
+t1401067832
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000532E60180000000000A90C10
+t1395548184
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000532E60230000000002759920
+t1395548195
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000532E60760000000000000ADC
+t1395548278
+s2780
+
+N/Users/takeruyoshihara/Library/MobileDevice/Provisioning Profiles/0EEFF9A4-8DCB-4040-A6A2-7E7E46C576F7.mobileprovision
+c000000005343D5D70000000000002054
+t1396954583
+s8276
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m
+c0000000053843C1600000000000007EE
+t1401175062
+s2030
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/Base.lproj/Main.storyboard
+c0000000053843D5E0000000000000BD1
+t1401175390
+s3025
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/Images.xcassets
+c0000000053843E9400000000000000AA
+t1401175700
+s170
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Info.plist
+c00000000538461EB00000000000004CC
+t1401184747
+s1228
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Prefix.pch
+c0000000053843C160000000000000158
+t1401175062
+s344
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m
+c000000005384551300000000000006AA
+t1401181459
+s1706
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m
+c000000005384540C00000000000002DF
+t1401181196
+s735
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/en.lproj/InfoPlist.strings
+c0000000053843C16000000000000002D
+t1401175062
+s45
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m
+c0000000053843C160000000000000168
+t1401175062
+s360
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider.xcent
+t1401188421
+s434
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/AppDelegate.o
+t1401188416
+s65784
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider
+t1401188416
+s57640
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider.LinkFileList
+c000000005384703F0000000000000263
+t1401188415
+s611
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider.o
+t1401188416
+s55816
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/ViewController.o
+t1401188416
+s42204
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/main.o
+t1401188416
+s4488
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/AppDelegate.o
+t1401188416
+s61724
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider
+t1401188416
+s57068
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider.LinkFileList
+c000000005384703F0000000000000263
+t1401188415
+s611
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider.o
+t1401188416
+s53496
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/ViewController.o
+t1401188416
+s41380
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/main.o
+t1401188416
+s3868
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/AppDelegate.o
+t1401188416
+s61724
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider
+t1401188416
+s57072
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider.LinkFileList
+c000000005384703F0000000000000267
+t1401188415
+s615
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider.o
+t1401188416
+s53464
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/ViewController.o
+t1401188416
+s41380
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/main.o
+t1401188416
+s3868
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/assetcatalog_dependencies.txt
+t1401188420
+s397
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/assetcatalog_generated_info.plist
+t1401188420
+s525
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app
+t1401188421
+s374
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app.dSYM
+t2
+s0
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/Base.lproj/Main.storyboardc
+t1401188421
+s170
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/Info.plist
+t1401188421
+s1317
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/MBYPhotoSlider
+t1401188416
+s205096
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/PkgInfo
+t1401188421
+s8
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/ResourceRules.plist
+t1401188415
+s150
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/embedded.mobileprovision
+t1401188421
+s8276
+
+N/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/en.lproj/InfoPlist.strings
+t1401188416
+s42
+
+N/var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-autoqfqpqdggojhhfgmyrsshkiys/MBYPhotoSlider-Prefix.pch.pch
+t1401188415
+s94752
+
+N/var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-ccfilkgffbpfqcelvumsdesavvov/MBYPhotoSlider-Prefix.pch.pch
+t1401188415
+s94756
+
+N/var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-coqnmcuqvkvnynftafshboklmodl/MBYPhotoSlider-Prefix.pch.pch
+t1401188415
+s117368
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc07b23bfa734b941^5bb533bfa734b941^---0#1#1#--18"Check dependencies36"FEB70433-F28F-4F37-AA38-3CB2ABE42E16-
+
+CCodeSign /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app
+s422881221.531845
+e422881221.784946
+r1
+xCodeSign
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"CodeSign build/Release-iphoneos/MBYPhotoSlider.app50"CodeSign build/Release-iphoneos/MBYPhotoSlider.app327488c5a734b941^baf3c8c5a734b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/0000000000000000^869"CodeSign build/Release-iphoneos/MBYPhotoSlider.app    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    Using code signing identity "iPhone Developer: TAKERU YOSHIHARA (3ZG8G95HMX)" and provisioning profile "mountainboy_apps" (0EEFF9A4-8DCB-4040-A6A2-7E7E46C576F7)    /usr/bin/codesign --force --sign 8D9E6001A444336ECE86C71B3840DD612EEB665C --resource-rules=/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/ResourceRules.plist --entitlements /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider.xcent /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app36"FBA3A6CF-122C-489B-B01F-5F5549493DBD-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCompileAssetCatalog /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/Images.xcassets
+s422881216.677144
+e422881220.103590
+r1
+xCompileAssetCatalog
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/LaunchImage-700-568h@2x.png
+o/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/Assets.car
+o/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CompileAssetCatalog build/Release-iphoneos/MBYPhotoSlider.app MBYPhotoSlider/Images.xcassets92"CompileAssetCatalog build/Release-iphoneos/MBYPhotoSlider.app MBYPhotoSlider/Images.xcassetse99aadc0a734b941^d7861ac4a734b941^-425"/* com.apple.actool.compilation-results *//Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/LaunchImage-700-568h@2x.png/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/Assets.car/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@91"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/Images.xcassets/0000000000000000^951"CompileAssetCatalog build/Release-iphoneos/MBYPhotoSlider.app MBYPhotoSlider/Images.xcassets    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/Images.xcassets36"0397E1DC-D4AD-45F7-9C02-9747F9B49E38-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/AppDelegate.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422881216.265681
+e422881216.412426
+r1
+xCompileC
+xbuild/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/AppDelegate.o
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m206"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/AppDelegate.o MBYPhotoSlider/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler2b3345c0a734b941^dd9569c0a734b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m0000000000000000^3545"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/AppDelegate.o MBYPhotoSlider/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-generated-files.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-own-target-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-all-target-headers.hmap -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-project-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources/arm64 -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -include /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-coqnmcuqvkvnynftafshboklmodl/MBYPhotoSlider-Prefix.pch -MMD -MT dependencies -MF /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/AppDelegate.d --serialize-diagnostics /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/AppDelegate.dia -c /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/AppDelegate.o36"892EAFD8-64F1-4A55-8A68-EEF5BB56A458-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422881216.187671
+e422881216.421242
+r1
+xCompileC
+xbuild/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider.o
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m212"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider.o MBYPhotoSlider/MBYPhotoSlider.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler819830c0a734b941^0ad76bc0a734b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m0000000000000000^3563"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider.o MBYPhotoSlider/MBYPhotoSlider.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-generated-files.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-own-target-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-all-target-headers.hmap -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-project-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources/arm64 -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -include /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-coqnmcuqvkvnynftafshboklmodl/MBYPhotoSlider-Prefix.pch -MMD -MT dependencies -MF /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider.d --serialize-diagnostics /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider.dia -c /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider.o36"0D94D179-3F24-43EB-B836-2884E0CA462A-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/ViewController.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422881216.239491
+e422881216.396895
+r1
+xCompileC
+xbuild/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/ViewController.o
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.h
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m212"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/ViewController.o MBYPhotoSlider/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7fdd3dc0a734b941^fa9a65c0a734b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m0000000000000000^3563"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/ViewController.o MBYPhotoSlider/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-generated-files.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-own-target-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-all-target-headers.hmap -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-project-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources/arm64 -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -include /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-coqnmcuqvkvnynftafshboklmodl/MBYPhotoSlider-Prefix.pch -MMD -MT dependencies -MF /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/ViewController.d --serialize-diagnostics /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/ViewController.dia -c /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/ViewController.o36"12EBF7FB-EEDF-41A9-BF72-D990C7EDD023-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/main.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422881216.280416
+e422881216.370216
+r1
+xCompileC
+xbuild/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/main.o
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m192"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/main.o MBYPhotoSlider/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler919c48c0a734b941^c8095fc0a734b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m0000000000000000^3503"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/main.o MBYPhotoSlider/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-generated-files.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-own-target-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-all-target-headers.hmap -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-project-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources/arm64 -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -include /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-coqnmcuqvkvnynftafshboklmodl/MBYPhotoSlider-Prefix.pch -MMD -MT dependencies -MF /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/main.dia -c /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/main.o36"296A5AD9-A995-4447-9B6D-B088BF976AB5-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/AppDelegate.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422881215.676099
+e422881216.058453
+r1
+xCompileC
+xbuild/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/AppDelegate.o
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m206"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/AppDelegate.o MBYPhotoSlider/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler3083adbfa734b941^26000fc0a734b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m0000000000000000^3545"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/AppDelegate.o MBYPhotoSlider/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-generated-files.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-own-target-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-all-target-headers.hmap -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-project-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources/armv7 -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -include /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-autoqfqpqdggojhhfgmyrsshkiys/MBYPhotoSlider-Prefix.pch -MMD -MT dependencies -MF /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/AppDelegate.dia -c /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/AppDelegate.o36"3A9384F1-CA54-4773-846F-C7236ED878D3-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422881215.675086
+e422881216.096985
+r1
+xCompileC
+xbuild/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider.o
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m212"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider.o MBYPhotoSlider/MBYPhotoSlider.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler1139adbfa734b941^81e918c0a734b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m0000000000000000^3563"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider.o MBYPhotoSlider/MBYPhotoSlider.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-generated-files.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-own-target-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-all-target-headers.hmap -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-project-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources/armv7 -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -include /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-autoqfqpqdggojhhfgmyrsshkiys/MBYPhotoSlider-Prefix.pch -MMD -MT dependencies -MF /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider.d --serialize-diagnostics /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider.dia -c /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider.o36"BC36359F-9941-46A4-8BB5-D825C8439C2E-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/ViewController.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422881215.675616
+e422881216.058898
+r1
+xCompileC
+xbuild/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/ViewController.o
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.h
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m212"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/ViewController.o MBYPhotoSlider/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler7c62adbfa734b941^9f1e0fc0a734b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m0000000000000000^3563"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/ViewController.o MBYPhotoSlider/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-generated-files.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-own-target-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-all-target-headers.hmap -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-project-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources/armv7 -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -include /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-autoqfqpqdggojhhfgmyrsshkiys/MBYPhotoSlider-Prefix.pch -MMD -MT dependencies -MF /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/ViewController.dia -c /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/ViewController.o36"3080FCC0-4291-4972-8E01-6AC0115F3DAD-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/main.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422881215.677399
+e422881216.056718
+r1
+xCompileC
+xbuild/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/main.o
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m192"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/main.o MBYPhotoSlider/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerf5d5adbfa734b941^c5ad0ec0a734b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m0000000000000000^3503"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/main.o MBYPhotoSlider/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-generated-files.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-own-target-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-all-target-headers.hmap -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-project-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources/armv7 -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -include /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-autoqfqpqdggojhhfgmyrsshkiys/MBYPhotoSlider-Prefix.pch -MMD -MT dependencies -MF /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/main.dia -c /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/main.o36"FEC47D89-4E03-4A47-A7BC-E10D63839045-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/AppDelegate.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422881216.060950
+e422881216.264657
+r1
+xCompileC
+xbuild/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m208"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/AppDelegate.o MBYPhotoSlider/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler6c0610c0a734b941^761b44c0a734b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m0000000000000000^3552"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/AppDelegate.o MBYPhotoSlider/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-generated-files.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-own-target-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-all-target-headers.hmap -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-project-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources/armv7s -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -include /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-ccfilkgffbpfqcelvumsdesavvov/MBYPhotoSlider-Prefix.pch -MMD -MT dependencies -MF /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.m -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/AppDelegate.o36"E9B871AD-9FE6-4814-A451-3B1DE1955DF0-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422881216.057089
+e422881216.279960
+r1
+xCompileC
+xbuild/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider.o
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m214"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider.o MBYPhotoSlider/MBYPhotoSlider.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerb6660fc0a734b941^2fc347c0a734b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m0000000000000000^3570"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider.o MBYPhotoSlider/MBYPhotoSlider.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-generated-files.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-own-target-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-all-target-headers.hmap -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-project-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources/armv7s -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -include /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-ccfilkgffbpfqcelvumsdesavvov/MBYPhotoSlider-Prefix.pch -MMD -MT dependencies -MF /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider.d --serialize-diagnostics /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider.dia -c /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.m -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider.o36"C5EEA97D-6025-4E30-8C06-123AC2F7F5FF-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/ViewController.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422881216.060114
+e422881216.236195
+r1
+xCompileC
+xbuild/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/ViewController.o
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.h
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m214"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/ViewController.o MBYPhotoSlider/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler86e50fc0a734b941^ed9e3cc0a734b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m0000000000000000^3570"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/ViewController.o MBYPhotoSlider/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-generated-files.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-own-target-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-all-target-headers.hmap -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-project-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources/armv7s -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -include /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-ccfilkgffbpfqcelvumsdesavvov/MBYPhotoSlider-Prefix.pch -MMD -MT dependencies -MF /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/ViewController.dia -c /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/ViewController.m -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/ViewController.o36"48659CCD-4952-4058-93AA-FBA39383939A-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/main.o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422881216.097301
+e422881216.186991
+r1
+xCompileC
+xbuild/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/main.o
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m194"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/main.o MBYPhotoSlider/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler61a619c0a734b941^540030c0a734b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m0000000000000000^3510"CompileC build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/main.o MBYPhotoSlider/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-generated-files.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-own-target-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-all-target-headers.hmap -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-project-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources/armv7s -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -include /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-ccfilkgffbpfqcelvumsdesavvov/MBYPhotoSlider-Prefix.pch -MMD -MT dependencies -MF /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/main.dia -c /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/main.m -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/main.o36"F99B196B-DB4E-4131-BDA3-FCA6FC04012E-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCompileStoryboard /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/Base.lproj/Main.storyboard
+s422881216.676581
+e422881221.433185
+r1
+xCompileStoryboard
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"CompileStoryboard MBYPhotoSlider/Base.lproj/Main.storyboard59"CompileStoryboard MBYPhotoSlider/Base.lproj/Main.storyboard8a91adc0a734b941^47e56ec5a734b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/Base.lproj/Main.storyboard0000000000000000^648"CompileStoryboard MBYPhotoSlider/Base.lproj/Main.storyboard    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/Base.lproj/Main.storyboardc /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/Base.lproj/Main.storyboard36"75935E03-60BB-42BC-B652-85F3B12B0E3D-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCopyStringsFile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/en.lproj/InfoPlist.strings MBYPhotoSlider/en.lproj/InfoPlist.strings
+s422881216.676323
+e422881216.694910
+r1
+xCopyStringsFile
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/en.lproj/InfoPlist.strings
+xMBYPhotoSlider/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy MBYPhotoSlider/en.lproj/InfoPlist.strings126"CopyStringsFile build/Release-iphoneos/MBYPhotoSlider.app/en.lproj/InfoPlist.strings MBYPhotoSlider/en.lproj/InfoPlist.stringscf85adc0a734b941^cdeab1c0a734b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/en.lproj/InfoPlist.strings0000000000000000^426"CopyStringsFile build/Release-iphoneos/MBYPhotoSlider.app/en.lproj/InfoPlist.strings MBYPhotoSlider/en.lproj/InfoPlist.strings    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/en.lproj -- MBYPhotoSlider/en.lproj/InfoPlist.strings36"03DD19B6-CA31-4381-871E-8BAF1F1CE777-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/MBYPhotoSlider.app/ResourceRules.plist
+s422881215.203243
+e422881215.206188
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xbuild/Release-iphoneos/MBYPhotoSlider.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Release-iphoneos/MBYPhotoSlider.app/ResourceRules.plist194"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/MBYPhotoSlider.app/ResourceRules.plist676434bfa734b941^a7c934bfa734b941^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/ResourceRules.plist0034009adcffdf42^710"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Release-iphoneos/MBYPhotoSlider.app/ResourceRules.plist    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app36"19853FE0-9414-4320-B034-BB5968603F58-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CCreateUniversalBinary /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/MBYPhotoSlider normal armv7\ armv7s\ arm64
+s422881216.661480
+e422881216.675411
+r1
+xCreateUniversalBinary
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/MBYPhotoSlider
+xnormal
+xarmv7 armv7s arm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Create universal binary /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/MBYPhotoSlider106"CreateUniversalBinary build/Release-iphoneos/MBYPhotoSlider.app/MBYPhotoSlider normal armv7\ armv7s\ arm642d97a9c0a734b941^f3e6acc0a734b941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/MBYPhotoSlider0034009adcffdf42^852"CreateUniversalBinary build/Release-iphoneos/MBYPhotoSlider.app/MBYPhotoSlider normal armv7\ armv7s\ arm64    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider -output /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/MBYPhotoSlider36"EF8F96AA-C1C9-46E3-B1C4-E9DCDF3D6F77-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CGenerateDSYMFile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app.dSYM /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/MBYPhotoSlider
+s422881221.447646
+e422881221.514871
+r1
+xGenerateDSYMFile
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app.dSYM
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/MBYPhotoSlider
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Generate /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app.dSYM120"GenerateDSYMFile build/Release-iphoneos/MBYPhotoSlider.app.dSYM build/Release-iphoneos/MBYPhotoSlider.app/MBYPhotoSlider4dd872c5a734b941^70cf83c5a734b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app.dSYM0034009adcffdf42^494"GenerateDSYMFile build/Release-iphoneos/MBYPhotoSlider.app.dSYM build/Release-iphoneos/MBYPhotoSlider.app/MBYPhotoSlider    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/MBYPhotoSlider -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app.dSYM36"F982D01E-B4EE-41A5-90CD-00719B4D23A0-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CLd /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider normal arm64
+s422881216.423466
+e422881216.660188
+r1
+xLd
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider
+xnormal
+xarm64
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider.LinkFileList
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider.o
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/ViewController.o
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/AppDelegate.o
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Link /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider116"Ld build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider normal arm6420b26cc0a734b941^1901a9c0a734b941^---0#0#1#--1272"Ld build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider normal arm64    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export IPHONEOS_DEPLOYMENT_TARGET=7.1    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -filelist /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider_dependency_info.dat -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/arm64/MBYPhotoSlider36"E1FC51AE-4621-4A6B-838A-35FEB8A584CD-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CLd /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider normal armv7
+s422881216.422637
+e422881216.658761
+r1
+xLd
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider
+xnormal
+xarmv7
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider.LinkFileList
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider.o
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/ViewController.o
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/AppDelegate.o
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Link /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider116"Ld build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider normal armv7b4906cc0a734b941^75aea8c0a734b941^---0#0#1#--1272"Ld build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider normal armv7    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export IPHONEOS_DEPLOYMENT_TARGET=7.1    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -filelist /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider_dependency_info.dat -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7/MBYPhotoSlider36"1F08880B-49B2-4C11-B4BD-EDE6949C8E21-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CLd /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider normal armv7s
+s422881216.423042
+e422881216.658818
+r1
+xLd
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider
+xnormal
+xarmv7s
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider.LinkFileList
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider.o
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/ViewController.o
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/AppDelegate.o
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"Link /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider118"Ld build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider normal armv7sb4af6cc0a734b941^5fb7a8c0a734b941^---0#0#1#--1278"Ld build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider normal armv7s    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export IPHONEOS_DEPLOYMENT_TARGET=7.1    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos -filelist /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider_dependency_info.dat -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/Objects-normal/armv7s/MBYPhotoSlider36"383DC485-697F-44AE-A938-7DC0AE39350F-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CProcessInfoPlistFile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/Info.plist /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Info.plist
+s422881221.434318
+e422881221.446999
+r1
+xProcessInfoPlistFile
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/Info.plist
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Process /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Info.plist114"ProcessInfoPlistFile build/Release-iphoneos/MBYPhotoSlider.app/Info.plist MBYPhotoSlider/MBYPhotoSlider-Info.plistb1fa6fc5a734b941^616f72c5a734b941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Info.plist0000000000000000^886"ProcessInfoPlistFile build/Release-iphoneos/MBYPhotoSlider.app/Info.plist MBYPhotoSlider/MBYPhotoSlider-Info.plist    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    builtin-infoPlistUtility /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Info.plist -genpkginfo /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/ResourceRules.plist -additionalcontentfile /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/assetcatalog_generated_info.plist -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/Info.plist36"13076DD5-C212-47C8-B624-50F2093D691F-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CProcessPCH /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-autoqfqpqdggojhhfgmyrsshkiys/MBYPhotoSlider-Prefix.pch.pch MBYPhotoSlider/MBYPhotoSlider-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422881215.207522
+e422881215.673263
+r1
+xProcessPCH
+x/var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-autoqfqpqdggojhhfgmyrsshkiys/MBYPhotoSlider-Prefix.pch.pch
+xMBYPhotoSlider/MBYPhotoSlider-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile MBYPhotoSlider/MBYPhotoSlider-Prefix.pch338"ProcessPCH /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-autoqfqpqdggojhhfgmyrsshkiys/MBYPhotoSlider-Prefix.pch.pch MBYPhotoSlider/MBYPhotoSlider-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilera1be35bfa734b941^6f62acbfa734b941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Prefix.pch0000000000000000^3664"ProcessPCH /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-autoqfqpqdggojhhfgmyrsshkiys/MBYPhotoSlider-Prefix.pch.pch MBYPhotoSlider/MBYPhotoSlider-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-generated-files.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-own-target-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-all-target-headers.hmap -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-project-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources/armv7 -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos --serialize-diagnostics /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-autoqfqpqdggojhhfgmyrsshkiys/MBYPhotoSlider-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-autoqfqpqdggojhhfgmyrsshkiys/MBYPhotoSlider-Prefix.pch.d -c /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Prefix.pch -o /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-autoqfqpqdggojhhfgmyrsshkiys/MBYPhotoSlider-Prefix.pch.pch36"C2CFA0CF-4AD1-4575-9CDB-E168FA62E097-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CProcessPCH /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-ccfilkgffbpfqcelvumsdesavvov/MBYPhotoSlider-Prefix.pch.pch MBYPhotoSlider/MBYPhotoSlider-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422881215.207894
+e422881215.673270
+r1
+xProcessPCH
+x/var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-ccfilkgffbpfqcelvumsdesavvov/MBYPhotoSlider-Prefix.pch.pch
+xMBYPhotoSlider/MBYPhotoSlider-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile MBYPhotoSlider/MBYPhotoSlider-Prefix.pch339"ProcessPCH /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-ccfilkgffbpfqcelvumsdesavvov/MBYPhotoSlider-Prefix.pch.pch MBYPhotoSlider/MBYPhotoSlider-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler58cb35bfa734b941^3692acbfa734b941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Prefix.pch0000000000000000^3667"ProcessPCH /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-ccfilkgffbpfqcelvumsdesavvov/MBYPhotoSlider-Prefix.pch.pch MBYPhotoSlider/MBYPhotoSlider-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-generated-files.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-own-target-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-all-target-headers.hmap -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-project-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources/armv7s -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos --serialize-diagnostics /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-ccfilkgffbpfqcelvumsdesavvov/MBYPhotoSlider-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-ccfilkgffbpfqcelvumsdesavvov/MBYPhotoSlider-Prefix.pch.d -c /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Prefix.pch -o /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-ccfilkgffbpfqcelvumsdesavvov/MBYPhotoSlider-Prefix.pch.pch36"253E72A9-C73C-4A7B-9608-E4DA8E084B4C-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CProcessPCH /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-coqnmcuqvkvnynftafshboklmodl/MBYPhotoSlider-Prefix.pch.pch MBYPhotoSlider/MBYPhotoSlider-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s422881215.208598
+e422881215.673258
+r1
+xProcessPCH
+x/var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-coqnmcuqvkvnynftafshboklmodl/MBYPhotoSlider-Prefix.pch.pch
+xMBYPhotoSlider/MBYPhotoSlider-Prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile MBYPhotoSlider/MBYPhotoSlider-Prefix.pch338"ProcessPCH /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-coqnmcuqvkvnynftafshboklmodl/MBYPhotoSlider-Prefix.pch.pch MBYPhotoSlider/MBYPhotoSlider-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler20d435bfa734b941^a35aacbfa734b941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Prefix.pch0000000000000000^3664"ProcessPCH /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-coqnmcuqvkvnynftafshboklmodl/MBYPhotoSlider-Prefix.pch.pch MBYPhotoSlider/MBYPhotoSlider-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-generated-files.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-own-target-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-all-target-headers.hmap -iquote /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider-project-headers.hmap -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources/arm64 -I/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/DerivedSources -F/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos --serialize-diagnostics /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-coqnmcuqvkvnynftafshboklmodl/MBYPhotoSlider-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-coqnmcuqvkvnynftafshboklmodl/MBYPhotoSlider-Prefix.pch.d -c /Users/takeruyoshihara/github/Private/MBYPhotoSlider/MBYPhotoSlider/MBYPhotoSlider-Prefix.pch -o /var/folders/vk/n_4x5jsn7plb_kvbfkqpwkth0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MBYPhotoSlider-Prefix-coqnmcuqvkvnynftafshboklmodl/MBYPhotoSlider-Prefix.pch.pch36"CF68CDBB-6E50-4ED3-96C0-7EAD66A48679-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider.xcent
+s422881221.522729
+e422881221.531280
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection230"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider.xcent230"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider.xcent9d1086c5a734b941^e20288c5a734b941^---0#0#1#-19%DVTDocumentLocation2@145"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider.xcent0034009adcffdf42^616"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider.xcent    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/MBYPhotoSlider.build/Release-iphoneos/MBYPhotoSlider.build/MBYPhotoSlider.xcent36"477EB219-13B1-43B9-BA37-2CC6C4C101CF-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CProcessProductPackaging /Users/takeruyoshihara/Library/MobileDevice/Provisioning\ Profiles/0EEFF9A4-8DCB-4040-A6A2-7E7E46C576F7.mobileprovision /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/embedded.mobileprovision
+s422881221.515553
+e422881221.521534
+r1
+xProcessProductPackaging
+x/Users/takeruyoshihara/Library/MobileDevice/Provisioning Profiles/0EEFF9A4-8DCB-4040-A6A2-7E7E46C576F7.mobileprovision
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection210"ProcessProductPackaging /Users/takeruyoshihara/Library/MobileDevice/Provisioning\ Profiles/0EEFF9A4-8DCB-4040-A6A2-7E7E46C576F7.mobileprovision build/Release-iphoneos/MBYPhotoSlider.app/embedded.mobileprovision210"ProcessProductPackaging /Users/takeruyoshihara/Library/MobileDevice/Provisioning\ Profiles/0EEFF9A4-8DCB-4040-A6A2-7E7E46C576F7.mobileprovision build/Release-iphoneos/MBYPhotoSlider.app/embedded.mobileprovisionae4884c5a734b941^7b8585c5a734b941^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/embedded.mobileprovision0034009adcffdf42^550"ProcessProductPackaging /Users/takeruyoshihara/Library/MobileDevice/Provisioning\ Profiles/0EEFF9A4-8DCB-4040-A6A2-7E7E46C576F7.mobileprovision build/Release-iphoneos/MBYPhotoSlider.app/embedded.mobileprovision    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    builtin-productPackagingUtility /Users/takeruyoshihara/Library/MobileDevice/Provisioning\ Profiles/0EEFF9A4-8DCB-4040-A6A2-7E7E46C576F7.mobileprovision -o /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/embedded.mobileprovision36"9D8EA9FF-4F8E-4113-8FB6-F89E7986CF46-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+
+CTouch /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app
+r0
+
+CValidate /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app
+s422881221.785622
+e422881221.928246
+r1
+xValidate
+x/Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Validate build/Release-iphoneos/MBYPhotoSlider.app50"Validate build/Release-iphoneos/MBYPhotoSlider.appdd7ac9c5a734b941^dca1edc5a734b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app/0000000000000000^369"Validate build/Release-iphoneos/MBYPhotoSlider.app    cd /Users/takeruyoshihara/github/Private/MBYPhotoSlider    export PRODUCT_TYPE=com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/takeruyoshihara/github/Private/MBYPhotoSlider/build/Release-iphoneos/MBYPhotoSlider.app36"BD417127-60D9-4CB2-A8AF-264B216B4324-
+b57BEAA75-D9B4-4965-9BFC-C4F15D7E6602
+

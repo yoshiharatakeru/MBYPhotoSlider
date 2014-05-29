@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MBYPhotoSlider.h"
+#import "MBYImageLayoutView.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //layout検証
+    MBYImageLayoutView  *layoutView = [[MBYImageLayoutView alloc]initWithFrame:self.view.bounds image:[UIImage imageNamed:@"frog"]];
+    
+    [self.view addSubview:layoutView];
 }
 
 

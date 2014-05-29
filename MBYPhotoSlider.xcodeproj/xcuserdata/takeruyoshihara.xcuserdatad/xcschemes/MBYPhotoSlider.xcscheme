@@ -38,6 +38,16 @@
                ReferencedContainer = "container:MBYPhotoSlider.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0533536C1934A38700CFCCA0"
+               BuildableName = "LibMBYPhotoSliderTests.xctest"
+               BlueprintName = "LibMBYPhotoSliderTests"
+               ReferencedContainer = "container:MBYPhotoSlider.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

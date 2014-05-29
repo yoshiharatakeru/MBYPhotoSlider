@@ -9,6 +9,10 @@
 #import "MBYPhotoSlider.h"
 
 @interface MBYPhotoSlider ()
+<UICollectionViewDataSource, UICollectionViewDelegate>
+{
+    UICollectionView *_collectionView;
+}
 
 @end
 
@@ -22,8 +26,18 @@
         return nil;
     }
     
-    //initialize
+   
     self.view.backgroundColor = [UIColor redColor];
+    
+    //collectionView
+    UICollectionViewFlowLayout *layout = [UICollectionViewFlowLayout new];
+    [layout setScrollDirection:UICollectionViewScrollDirectionHorizontal];
+    _collectionView = [[UICollectionView alloc]initWithFrame:self.view.bounds collectionViewLayout:layout];
+    [_collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"cell"];
+    _collectionView.delegate = self;
+    _collectionView.dataSource = self;
+    
+    [self.view addSubview:_collectionView];
     
     return self;
 }
@@ -51,6 +65,43 @@
 {
     NSLog(@"didMoveToParentController");
 }
+
+
+#pragma mark -
+#pragma mark collectionView
+
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
+{
+    return 1;
+}
+
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+    return 100;
+}
+
+
+- (UICollectionViewCell*)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSString *cellIdeintifier = @"cell";
+    
+    UICollectionViewCell  *cell;
+    
+
+    cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdeintifier forIndexPath:indexPath];
+    
+    cell.contentView.backgroundColor = [UIColor redColor];
+    
+    return cell;
+}
+
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    return CGSizeMake(100, 100);
+}
+
 
 #pragma mark -
 #pragma mark plivate mehtods

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2986AA3F-ED7F-4D0B-996D-9DD316ECFB6B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MBYPhotoSlider</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>59C0C649-8F65-459A-B03A-75B16029BD26</key>
+		<string>ssh://github.com/yoshiharatakeru/MBYPhotoSlider.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MBYPhotoSlider.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>59C0C649-8F65-459A-B03A-75B16029BD26</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/yoshiharatakeru/MBYPhotoSlider.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>59C0C649-8F65-459A-B03A-75B16029BD26</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>59C0C649-8F65-459A-B03A-75B16029BD26</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MBYPhotoSlider</string>
+		</dict>
+	</array>
+</dict>
+</plist>
