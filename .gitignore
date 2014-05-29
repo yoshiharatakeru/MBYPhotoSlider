@@ -6,4 +6,4 @@
 #
 # Pods/
 *xcuserstate
-
+*.DS_Store
