@@ -19,11 +19,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+
     //layout検証
-    MBYImageLayoutView  *layoutView = [[MBYImageLayoutView alloc]initWithFrame:self.view.bounds image:[UIImage imageNamed:@"frog"]];
+//    MBYImageLayoutView  *layoutView = [[MBYImageLayoutView alloc]initWithFrame:self.view.bounds image:[UIImage imageNamed:@"frog"]];
+//    
+//    [self.view addSubview:layoutView];
     
+    MBYImageLayoutView *layoutView = [MBYImageLayoutView new];
+    layoutView.frame = self.view.bounds;
     [self.view addSubview:layoutView];
+    [layoutView setImage:[UIImage imageNamed:@"frog"]];
 }
 
 
@@ -32,6 +37,11 @@
     [super didReceiveMemoryWarning];
 }
 
+
+- (void) viewDidAppear:(BOOL)animated
+{
+
+}
 
 #pragma mark -
 #pragma mark button action

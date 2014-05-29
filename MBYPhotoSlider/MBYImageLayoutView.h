@@ -10,6 +10,6 @@
 
 @interface MBYImageLayoutView : UIView
 
-- (id)initWithFrame:(CGRect)frame image:(UIImage*)image;
+- (void)setImage:(UIImage*)image;
 
 @end

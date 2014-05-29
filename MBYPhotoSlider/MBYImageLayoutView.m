@@ -18,27 +18,6 @@
 
 @implementation MBYImageLayoutView
 
-- (id)initWithFrame:(CGRect)frame image:(UIImage*)image
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        
-        //imageの配置
-        _imageView = [[MBYVariableSizedImageView alloc]initWithImage:image];
-        _imageView.userInteractionEnabled = YES;
-        
-        //pan gesture
-        UIPanGestureRecognizer *panGesture;
-        panGesture = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(panAction:)];
-        [_imageView addGestureRecognizer:panGesture];
-        
-        //first position
-        [self applyImageViewToBaseView];
-        [self addSubview:_imageView];
-    }
-    return self;
-}
-
 #pragma mark -
 #pragma mark private methods
 
@@ -50,24 +29,43 @@
     _imageView.center = CGPointMake(_imageView.center.x + movedPoint.x, _imageView.center.y + movedPoint.y);
     
     [sender setTranslation:CGPointZero inView:self];
-    
 }
 
-//画像をviewの中心に収める
-- (void)applyImageViewToBaseView
+
+//viewの中心frame
+- (CGRect)centerFrameForImage:(UIImage*)image
 {
-    UIImage *image = _imageView.image;
-    
+    CGFloat w, h, x, y;
+
     if (image.size.width > image.size.height) {//横長
-        _imageView.frame = CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.width * image.size.height/image.size.width);
+        w = self.bounds.size.width;
+        h = self.bounds.size.width * image.size.height/image.size.width;
+        x = 0;
+        y = (self.bounds.size.height - h) / 2;
     
     }else{//縦長 or 正方形
-        _imageView.frame = CGRectMake(0, 0, self.bounds.size.height * image.size.width/image.size.height, self.bounds.size.height);
+        w = self.bounds.size.height * image.size.width/image.size.height;
+        h = image.size.width/image.size.height;
+        x = (self.bounds.size.width - w) / 2;
+        y = 0;
     }
-    
-    _imageView.center = self.center ;
+    return CGRectMake(x, y, w, h);
 }
 
+
+- (void)setImage:(UIImage *)image
+{
+    _imageView = [[MBYVariableSizedImageView alloc]initWithFrame:[self centerFrameForImage:image]];
+    _imageView.userInteractionEnabled = YES;
+    _imageView.image = image;
+    
+    //pan gesture
+    UIPanGestureRecognizer *panGesture;
+    panGesture = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(panAction:)];
+    [_imageView addGestureRecognizer:panGesture];
+    
+    [self addSubview:_imageView];
+}
 
 
 #pragma mark -
