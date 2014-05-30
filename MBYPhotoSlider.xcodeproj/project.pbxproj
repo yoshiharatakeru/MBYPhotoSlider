@@ -22,6 +22,7 @@
 		053CFAE41934739600FB6126 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 053CFAE21934739600FB6126 /* InfoPlist.strings */; };
 		053CFAE61934739600FB6126 /* MBYPhotoSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 053CFAE51934739600FB6126 /* MBYPhotoSliderTests.m */; };
 		053CFAF1193473FD00FB6126 /* MBYPhotoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 053CFAF0193473FD00FB6126 /* MBYPhotoSlider.m */; };
+		05B2FE061938380C00805C9A /* MBYCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B2FE051938380C00805C9A /* MBYCollectionViewCell.m */; };
 		05ECC876193827D900C0AA70 /* MBYPinchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ECC875193827D900C0AA70 /* MBYPinchImageView.m */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,8 @@
 		053CFAE51934739600FB6126 /* MBYPhotoSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBYPhotoSliderTests.m; sourceTree = "<group>"; };
 		053CFAEF193473FD00FB6126 /* MBYPhotoSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBYPhotoSlider.h; sourceTree = "<group>"; };
 		053CFAF0193473FD00FB6126 /* MBYPhotoSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBYPhotoSlider.m; sourceTree = "<group>"; };
+		05B2FE041938380C00805C9A /* MBYCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBYCollectionViewCell.h; sourceTree = "<group>"; };
+		05B2FE051938380C00805C9A /* MBYCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBYCollectionViewCell.m; sourceTree = "<group>"; };
 		05ECC874193827D900C0AA70 /* MBYPinchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBYPinchImageView.h; sourceTree = "<group>"; };
 		05ECC875193827D900C0AA70 /* MBYPinchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBYPinchImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,6 +176,8 @@
 				053CFAF0193473FD00FB6126 /* MBYPhotoSlider.m */,
 				05ECC874193827D900C0AA70 /* MBYPinchImageView.h */,
 				05ECC875193827D900C0AA70 /* MBYPinchImageView.m */,
+				05B2FE041938380C00805C9A /* MBYCollectionViewCell.h */,
+				05B2FE051938380C00805C9A /* MBYCollectionViewCell.m */,
 			);
 			path = MBYPhotoSlider;
 			sourceTree = "<group>";
@@ -304,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05ECC876193827D900C0AA70 /* MBYPinchImageView.m in Sources */,
+				05B2FE061938380C00805C9A /* MBYCollectionViewCell.m in Sources */,
 				053CFAF1193473FD00FB6126 /* MBYPhotoSlider.m in Sources */,
 				053CFAD11934739600FB6126 /* ViewController.m in Sources */,
 				053CFACB1934739600FB6126 /* AppDelegate.m in Sources */,

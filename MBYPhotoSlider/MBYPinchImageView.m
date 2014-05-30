@@ -10,30 +10,44 @@
 
 @interface MBYPinchImageView()
 <UIScrollViewDelegate>
+{
+    UIImageView *_imageView;
+    UIScrollView *_scrollView;
+}
 @end
 
 @implementation MBYPinchImageView
 
-- (id)initWithImage:(UIImage*)image frame:(CGRect)frame
+- (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
         
         //scrollViewの配置
-        UIScrollView *scrollView = [[UIScrollView alloc]initWithFrame:self.bounds];
-        scrollView.minimumZoomScale = 1.0;
-        scrollView.maximumZoomScale = 3.0;
-        scrollView.delegate  = self;
+        _scrollView = [[UIScrollView alloc]initWithFrame:self.bounds];
+        _scrollView.showsHorizontalScrollIndicator = NO;
+        _scrollView.showsVerticalScrollIndicator = NO;
+        _scrollView.minimumZoomScale = 1.0;
+        _scrollView.maximumZoomScale = 3.0;
+        _scrollView.delegate  = self;
         
         //imageViewの配置
-        UIImageView *imageView = [[UIImageView alloc]initWithFrame:scrollView.bounds];
-        imageView.contentMode = UIViewContentModeScaleAspectFit;
-        imageView.image = image;
+        _imageView = [[UIImageView alloc]initWithFrame:_scrollView.bounds];
+        _imageView.contentMode = UIViewContentModeScaleAspectFit;
         
-        [scrollView addSubview:imageView];
-        [self addSubview:scrollView];
+        [_scrollView addSubview:_imageView];
+        [self addSubview:_scrollView];
     }
     return self;
+}
+
+
+- (void)setImage:(UIImage *)image
+{
+    _scrollView.zoomScale = 1.0;
+    
+    
+    _imageView.image = image;
 }
 
 

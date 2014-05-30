@@ -19,13 +19,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    //pinchiImageViewの検証
-    MBYPinchImageView *pinchView;
-    pinchView = [[MBYPinchImageView alloc]initWithImage:[UIImage imageNamed:@"frog"] frame:self.view.bounds];
-    
-    [self.view addSubview:pinchView];
-
 }
 
 
@@ -51,7 +44,7 @@
     MBYPhotoSlider *slider = [[MBYPhotoSlider alloc]initWithPhotos:photos];
     slider.delegate = self;
     
-    [slider open];
+    [slider openWithIndex:2];
 }
 
 

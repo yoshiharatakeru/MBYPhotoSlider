@@ -15,7 +15,7 @@
 @property (nonatomic, weak) id delegate;
 
 - (id)initWithPhotos:(NSArray*)photos;
-- (void)open;
+- (void)openWithIndex:(NSInteger)index;
 
 @end
 

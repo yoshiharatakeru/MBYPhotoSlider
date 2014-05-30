@@ -7,6 +7,8 @@
 //
 
 #import "MBYPhotoSlider.h"
+#import "MBYPinchImageView.h"
+#import "MBYCollectionViewCell.h"
 
 @interface MBYPhotoSlider ()
 <UICollectionViewDataSource, UICollectionViewDelegate>
@@ -26,16 +28,24 @@
         return nil;
     }
     
+    //frame
+    self.view.frame = [[UIScreen mainScreen]bounds];
+    
    
     self.view.backgroundColor = [UIColor redColor];
     
     //collectionView
     UICollectionViewFlowLayout *layout = [UICollectionViewFlowLayout new];
     [layout setScrollDirection:UICollectionViewScrollDirectionHorizontal];
+    layout.minimumInteritemSpacing = 0;
+    layout.minimumLineSpacing = 0;
+    
     _collectionView = [[UICollectionView alloc]initWithFrame:self.view.bounds collectionViewLayout:layout];
-    [_collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"cell"];
+    [_collectionView registerClass:[MBYCollectionViewCell class] forCellWithReuseIdentifier:@"cell"];
+    _collectionView.pagingEnabled = YES;
     _collectionView.delegate = self;
     _collectionView.dataSource = self;
+    _collectionView.bounces = NO;
     
     [self.view addSubview:_collectionView];
     
@@ -54,6 +64,11 @@
     [self setBtnClose];
 }
 
+
+- (void)viewDidAppear:(BOOL)animated
+{
+
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -82,24 +97,35 @@
 }
 
 
-- (UICollectionViewCell*)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+- (MBYCollectionViewCell*)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     NSString *cellIdeintifier = @"cell";
-    
-    UICollectionViewCell  *cell;
-    
-
+    MBYCollectionViewCell  *cell;
     cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdeintifier forIndexPath:indexPath];
     
     cell.contentView.backgroundColor = [UIColor redColor];
+    [self updateCell:cell atIndexPath:indexPath];
     
     return cell;
 }
 
 
+- (void)updateCell:(MBYCollectionViewCell*)cell atIndexPath:(NSIndexPath*)indexPath
+{
+    //label
+    UILabel *lb = (UILabel*)[cell viewWithTag:2];
+    lb.text = [NSString stringWithFormat:@"cell:%d",indexPath.row];
+    
+    MBYPinchImageView *pinchView = (MBYPinchImageView *)[cell viewWithTag:1];
+    pinchView.image = [UIImage imageNamed:@"frog"];
+}
+
+
+
+
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    return CGSizeMake(100, 100);
+    return collectionView.bounds.size;
 }
 
 
@@ -133,7 +159,7 @@
 #pragma mark -
 #pragma mark public methods
 
-- (void)open
+- (void)openWithIndex:(NSInteger)index
 {
     UIViewController *parent = (UIViewController*)self.delegate;
     
@@ -141,6 +167,10 @@
     [parent addChildViewController:self];
     [parent.view addSubview:self.view];
     [self didMoveToParentViewController:self.delegate];
+    
+    //指定した番号の写真までスクロール
+    NSIndexPath *indexPath = [NSIndexPath indexPathForItem:index inSection:0];
+    [_collectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:NO];
 }
 
 

@@ -1,5 +1,5 @@
 //
-//  MBYPinchImageView.h
+//  MBYCollectionViewCell.h
 //  MBYPhotoSlider
 //
 //  Created by Takeru Yoshihara on 2014/05/30.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MBYPinchImageView : UIView
+@interface MBYCollectionViewCell : UICollectionViewCell
 
-@property (nonatomic,strong) UIImage *image;
-
-- (id)initWithFrame:(CGRect)frame;
+@property(nonatomic,strong) UILabel *label;
 
 @end
