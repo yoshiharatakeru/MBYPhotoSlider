@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		053353EE1935D08600CFCCA0 /* MBYVariableSizedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 053353ED1935D08600CFCCA0 /* MBYVariableSizedImageView.m */; };
-		053353F11935D26600CFCCA0 /* MBYImageLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 053353F01935D26600CFCCA0 /* MBYImageLayoutView.m */; };
 		053CFABB1934739600FB6126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053CFABA1934739600FB6126 /* Foundation.framework */; };
 		053CFABD1934739600FB6126 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053CFABC1934739600FB6126 /* CoreGraphics.framework */; };
 		053CFABF1934739600FB6126 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053CFABE1934739600FB6126 /* UIKit.framework */; };
@@ -24,6 +22,7 @@
 		053CFAE41934739600FB6126 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 053CFAE21934739600FB6126 /* InfoPlist.strings */; };
 		053CFAE61934739600FB6126 /* MBYPhotoSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 053CFAE51934739600FB6126 /* MBYPhotoSliderTests.m */; };
 		053CFAF1193473FD00FB6126 /* MBYPhotoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 053CFAF0193473FD00FB6126 /* MBYPhotoSlider.m */; };
+		05ECC876193827D900C0AA70 /* MBYPinchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05ECC875193827D900C0AA70 /* MBYPinchImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +42,6 @@
 		053353761934A38700CFCCA0 /* LibMBYPhotoSliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LibMBYPhotoSliderTests-Info.plist"; sourceTree = "<group>"; };
 		053353781934A38700CFCCA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0533537A1934A38700CFCCA0 /* LibMBYPhotoSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibMBYPhotoSliderTests.m; sourceTree = "<group>"; };
-		053353EC1935D08600CFCCA0 /* MBYVariableSizedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBYVariableSizedImageView.h; path = ../MBYVariableSizedImageView.h; sourceTree = "<group>"; };
-		053353ED1935D08600CFCCA0 /* MBYVariableSizedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBYVariableSizedImageView.m; path = ../MBYVariableSizedImageView.m; sourceTree = "<group>"; };
-		053353EF1935D26600CFCCA0 /* MBYImageLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBYImageLayoutView.h; sourceTree = "<group>"; };
-		053353F01935D26600CFCCA0 /* MBYImageLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBYImageLayoutView.m; sourceTree = "<group>"; };
 		053CFAB71934739600FB6126 /* MBYPhotoSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBYPhotoSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		053CFABA1934739600FB6126 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		053CFABC1934739600FB6126 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,6 +63,8 @@
 		053CFAE51934739600FB6126 /* MBYPhotoSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBYPhotoSliderTests.m; sourceTree = "<group>"; };
 		053CFAEF193473FD00FB6126 /* MBYPhotoSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBYPhotoSlider.h; sourceTree = "<group>"; };
 		053CFAF0193473FD00FB6126 /* MBYPhotoSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBYPhotoSlider.m; sourceTree = "<group>"; };
+		05ECC874193827D900C0AA70 /* MBYPinchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBYPinchImageView.h; sourceTree = "<group>"; };
+		05ECC875193827D900C0AA70 /* MBYPinchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBYPinchImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,8 +162,6 @@
 		053CFAC01934739600FB6126 /* MBYPhotoSlider */ = {
 			isa = PBXGroup;
 			children = (
-				053353EC1935D08600CFCCA0 /* MBYVariableSizedImageView.h */,
-				053353ED1935D08600CFCCA0 /* MBYVariableSizedImageView.m */,
 				053CFAC91934739600FB6126 /* AppDelegate.h */,
 				053CFACA1934739600FB6126 /* AppDelegate.m */,
 				053CFACC1934739600FB6126 /* Main.storyboard */,
@@ -176,8 +171,8 @@
 				053CFAC11934739600FB6126 /* Supporting Files */,
 				053CFAEF193473FD00FB6126 /* MBYPhotoSlider.h */,
 				053CFAF0193473FD00FB6126 /* MBYPhotoSlider.m */,
-				053353EF1935D26600CFCCA0 /* MBYImageLayoutView.h */,
-				053353F01935D26600CFCCA0 /* MBYImageLayoutView.m */,
+				05ECC874193827D900C0AA70 /* MBYPinchImageView.h */,
+				05ECC875193827D900C0AA70 /* MBYPinchImageView.m */,
 			);
 			path = MBYPhotoSlider;
 			sourceTree = "<group>";
@@ -308,8 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				053353EE1935D08600CFCCA0 /* MBYVariableSizedImageView.m in Sources */,
-				053353F11935D26600CFCCA0 /* MBYImageLayoutView.m in Sources */,
+				05ECC876193827D900C0AA70 /* MBYPinchImageView.m in Sources */,
 				053CFAF1193473FD00FB6126 /* MBYPhotoSlider.m in Sources */,
 				053CFAD11934739600FB6126 /* ViewController.m in Sources */,
 				053CFACB1934739600FB6126 /* AppDelegate.m in Sources */,

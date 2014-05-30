@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "MBYPhotoSlider.h"
-#import "MBYImageLayoutView.h"
+#import "MBYPinchImageView.h"
 
 @interface ViewController ()
 
@@ -19,16 +19,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    //layout検証
-//    MBYImageLayoutView  *layoutView = [[MBYImageLayoutView alloc]initWithFrame:self.view.bounds image:[UIImage imageNamed:@"frog"]];
-//    
-//    [self.view addSubview:layoutView];
     
-    MBYImageLayoutView *layoutView = [MBYImageLayoutView new];
-    layoutView.frame = self.view.bounds;
-    [self.view addSubview:layoutView];
-    [layoutView setImage:[UIImage imageNamed:@"frog"]];
+    //pinchiImageViewの検証
+    MBYPinchImageView *pinchView;
+    pinchView = [[MBYPinchImageView alloc]initWithImage:[UIImage imageNamed:@"frog"] frame:self.view.bounds];
+    
+    [self.view addSubview:pinchView];
+
 }
 
 
