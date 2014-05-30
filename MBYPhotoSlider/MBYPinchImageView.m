@@ -11,8 +11,9 @@
 @interface MBYPinchImageView()
 <UIScrollViewDelegate>
 {
-    UIImageView *_imageView;
+    UIImageView  *_imageView;
     UIScrollView *_scrollView;
+    BOOL          _didDoubleTapped;
 }
 @end
 
@@ -35,6 +36,11 @@
         _imageView = [[UIImageView alloc]initWithFrame:_scrollView.bounds];
         _imageView.contentMode = UIViewContentModeScaleAspectFit;
         
+        //ダブルタップ
+        UITapGestureRecognizer *tapGes = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapAction:)];
+        [tapGes setNumberOfTapsRequired:2];
+        [_scrollView addGestureRecognizer:tapGes];
+        
         [_scrollView addSubview:_imageView];
         [self addSubview:_scrollView];
     }
@@ -45,8 +51,6 @@
 - (void)setImage:(UIImage *)image
 {
     _scrollView.zoomScale = 1.0;
-    
-    
     _imageView.image = image;
 }
 
@@ -56,5 +60,21 @@
     return scrollView.subviews[0];
 }
 
+
+- (void)tapAction:(UITapGestureRecognizer*)sender
+{
+    if (_didDoubleTapped) {
+        [UIView animateWithDuration:0.2 animations:^{
+            _scrollView.zoomScale = 1.0;
+        }];
+        _didDoubleTapped = NO;
+    
+    }else{
+        [UIView animateWithDuration:0.2 animations:^{
+            _scrollView.zoomScale *= 2.0;
+        }];
+        _didDoubleTapped = YES;
+    }
+}
 
 @end

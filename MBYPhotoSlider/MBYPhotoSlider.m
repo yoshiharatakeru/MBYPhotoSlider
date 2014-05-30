@@ -31,9 +31,6 @@
     //frame
     self.view.frame = [[UIScreen mainScreen]bounds];
     
-   
-    self.view.backgroundColor = [UIColor redColor];
-    
     //collectionView
     UICollectionViewFlowLayout *layout = [UICollectionViewFlowLayout new];
     [layout setScrollDirection:UICollectionViewScrollDirectionHorizontal];
@@ -46,6 +43,7 @@
     _collectionView.delegate = self;
     _collectionView.dataSource = self;
     _collectionView.bounces = NO;
+    _collectionView.backgroundColor = [UIColor whiteColor];
     
     [self.view addSubview:_collectionView];
     
@@ -103,7 +101,6 @@
     MBYCollectionViewCell  *cell;
     cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdeintifier forIndexPath:indexPath];
     
-    cell.contentView.backgroundColor = [UIColor redColor];
     [self updateCell:cell atIndexPath:indexPath];
     
     return cell;
