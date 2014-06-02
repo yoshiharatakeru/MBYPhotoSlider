@@ -17,6 +17,7 @@
 }
 @end
 
+
 @implementation MBYPinchImageView
 
 - (id)initWithFrame:(CGRect)frame

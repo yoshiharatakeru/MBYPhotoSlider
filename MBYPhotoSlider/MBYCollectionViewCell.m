@@ -8,11 +8,13 @@
 
 #import "MBYCollectionViewCell.h"
 #import "MBYPinchImageView.h"
+
 @interface MBYCollectionViewCell()
 {
     MBYPinchImageView *_pinchView;
 }
 @end
+
 
 @implementation MBYCollectionViewCell
 

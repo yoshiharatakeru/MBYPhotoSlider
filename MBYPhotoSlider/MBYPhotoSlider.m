@@ -85,7 +85,6 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
 
 - (void)updateCell:(MBYCollectionViewCell*)cell atIndexPath:(NSIndexPath*)indexPath
 {
-    
     //pinch view
     MBYPinchImageView *pinchView = (MBYPinchImageView *)[cell viewWithTag:1];
     pinchView.image = self.photos[indexPath.row];

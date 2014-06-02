@@ -8,10 +8,8 @@
 
 #import "ViewController.h"
 #import "MBYPhotoSlider.h"
-#import "MBYPinchImageView.h"
 
 @interface ViewController ()
-<MBYPinchImageViewDelegate>
 
 @end
 
