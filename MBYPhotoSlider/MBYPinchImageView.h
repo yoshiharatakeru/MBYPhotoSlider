@@ -7,11 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+@protocol MBYPinchImageViewDelegate;
 
 @interface MBYPinchImageView : UIView
 
 @property (nonatomic,strong) UIImage *image;
+@property (nonatomic, weak) id delegate;
 
 - (id)initWithFrame:(CGRect)frame;
+
+@end
+
+
+@protocol MBYPinchImageViewDelegate <NSObject>
+
+- (void)PinchImageViewDidTapOutsidePhoto;
 
 @end

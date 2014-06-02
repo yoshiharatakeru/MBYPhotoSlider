@@ -12,7 +12,7 @@
 
 @interface MBYPhotoSlider ()
 <UICollectionViewDataSource, UICollectionViewDelegate,
-UIScrollViewDelegate>
+UIScrollViewDelegate, MBYPinchImageViewDelegate>
 {
     UICollectionView *_collectionView;
     BOOL _didShowFirstImage;
@@ -89,6 +89,7 @@ UIScrollViewDelegate>
     //pinch view
     MBYPinchImageView *pinchView = (MBYPinchImageView *)[cell viewWithTag:1];
     pinchView.image = self.photos[indexPath.row];
+    pinchView.delegate = self;
     
     //開いて直後の1枚はalphaが1.0
     cell.contentView.alpha = (_didShowFirstImage)? 0:1.0;
@@ -141,5 +142,12 @@ UIScrollViewDelegate>
 }
 
 
+#pragma mark -
+#pragma mark pinchView
+
+- (void)PinchImageViewDidTapOutsidePhoto
+{
+    [self close];
+}
 
 @end

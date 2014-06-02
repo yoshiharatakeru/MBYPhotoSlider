@@ -107,9 +107,10 @@
 {
     CGPoint point = [sender locationInView:_imageView];
     if (point.y < 0 || point.y > _imageView.bounds.size.height) {
-        NSLog(@"close");
+        [self.delegate PinchImageViewDidTapOutsidePhoto];
     }
 }
+
 
 - (void)updateImageViewSize
 {
