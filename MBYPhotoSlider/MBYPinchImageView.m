@@ -33,8 +33,9 @@
         _scrollView.delegate  = self;
         
         //imageViewの配置
-        _imageView = [[UIImageView alloc]initWithFrame:_scrollView.bounds];
-        _imageView.contentMode = UIViewContentModeScaleAspectFit;
+        _imageView = [UIImageView new];
+        [self addSubview:_scrollView];
+
         
         //ダブルタップ
         UITapGestureRecognizer *tapGes = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapAction:)];
@@ -42,7 +43,6 @@
         [_scrollView addGestureRecognizer:tapGes];
         
         [_scrollView addSubview:_imageView];
-        [self addSubview:_scrollView];
     }
     return self;
 }
@@ -52,6 +52,8 @@
 {
     _scrollView.zoomScale = 1.0;
     _imageView.image = image;
+    [self updateImageViewSize];
+    [self updateImageViewOrigin];
 }
 
 
@@ -61,20 +63,85 @@
 }
 
 
+- (void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(CGFloat)scale
+{
+    [UIView animateWithDuration:0.2 animations:^{
+        [self updateImageViewOrigin];
+    }];
+}
+
 - (void)tapAction:(UITapGestureRecognizer*)sender
 {
+    
     if (_didDoubleTapped) {
         [UIView animateWithDuration:0.2 animations:^{
             _scrollView.zoomScale = 1.0;
+        } completion:^(BOOL finished) {
+            
+            [UIView animateWithDuration:0.2 animations:^{
+                [self updateImageViewOrigin];
+            }];
         }];
         _didDoubleTapped = NO;
     
     }else{
         [UIView animateWithDuration:0.2 animations:^{
             _scrollView.zoomScale *= 2.0;
+        } completion:^(BOOL finished) {
+            [UIView animateWithDuration:0.2 animations:^{
+                [self updateImageViewOrigin];
+            }];
         }];
         _didDoubleTapped = YES;
     }
+}
+
+
+- (void)updateImageViewSize
+{
+    // Get image size
+    CGSize  imageSize;
+    imageSize = _imageView.image.size;
+    
+    // Decide image view size
+    CGRect  bounds;
+    CGRect  rect;
+    bounds = _scrollView.bounds;
+    rect.origin = CGPointZero;
+    if (imageSize.width / imageSize.height > CGRectGetWidth(bounds) / CGRectGetHeight(bounds)) {
+        rect.size.width = CGRectGetWidth(bounds);
+        rect.size.height = floor(imageSize.height / imageSize.width * CGRectGetWidth(rect));
+    }
+    else {
+        rect.size.height = CGRectGetHeight(bounds);
+        rect.size.width = imageSize.width / imageSize.height * CGRectGetHeight(rect);
+    }
+    
+    // Set image view frame
+    _imageView.frame = rect;
+}
+
+- (void)updateImageViewOrigin
+{
+    // Get image view frame
+    CGRect  rect;
+    rect = _imageView.frame;
+    
+    // Get scroll view bounds
+    CGRect  bounds;
+    bounds = _scrollView.bounds;
+    
+    // Compare image size and bounds
+    rect.origin = CGPointZero;
+    if (CGRectGetWidth(rect) < CGRectGetWidth(bounds)) {
+        rect.origin.x = floor((CGRectGetWidth(bounds) - CGRectGetWidth(rect)) * 0.5f);
+    }
+    if (CGRectGetHeight(rect) < CGRectGetHeight(bounds)) {
+        rect.origin.y = floor((CGRectGetHeight(bounds) - CGRectGetHeight(rect)) * 0.5f);
+    }
+    
+    // Set image view frame
+    _imageView.frame = rect;
 }
 
 @end
