@@ -13,6 +13,7 @@
 @interface MBYPhotoSlider : UIViewController
 
 @property (nonatomic, weak) id delegate;
+@property (nonatomic,strong) NSArray *photos;
 
 - (id)initWithPhotos:(NSArray*)photos;
 - (void)openWithIndex:(NSInteger)index;

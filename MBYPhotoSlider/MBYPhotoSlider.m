@@ -31,16 +31,16 @@ UIScrollViewDelegate>
     }
     
     _didShowFirstImage = NO;
-    
-    //frame
     self.view.frame = [[UIScreen mainScreen]bounds];
+    self.photos = photos;
     
-    //collectionView
+    //collectionViewLayout
     UICollectionViewFlowLayout *layout = [UICollectionViewFlowLayout new];
     [layout setScrollDirection:UICollectionViewScrollDirectionHorizontal];
     layout.minimumInteritemSpacing = 0;
     layout.minimumLineSpacing = 0;
     
+    //collectionView
     _collectionView = [[UICollectionView alloc]initWithFrame:self.view.bounds collectionViewLayout:layout];
     [_collectionView registerClass:[MBYCollectionViewCell class] forCellWithReuseIdentifier:@"cell"];
     _collectionView.pagingEnabled = YES;
@@ -55,32 +55,9 @@ UIScrollViewDelegate>
 }
 
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-}
-
-
 - (void)viewWillAppear:(BOOL)animated
 {
     [self setBtnClose];
-}
-
-
-- (void)viewDidAppear:(BOOL)animated
-{
-
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-}
-
-
-- (void)didMoveToParentViewController:(UIViewController *)parent
-{
-    NSLog(@"didMoveToParentController");
 }
 
 
@@ -95,7 +72,7 @@ UIScrollViewDelegate>
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 100;
+    return self.photos.count;
 }
 
 
@@ -113,13 +90,10 @@ UIScrollViewDelegate>
 
 - (void)updateCell:(MBYCollectionViewCell*)cell atIndexPath:(NSIndexPath*)indexPath
 {
-    //label
-    UILabel *lb = (UILabel*)[cell viewWithTag:2];
-    lb.text = [NSString stringWithFormat:@"cell:%d",indexPath.row];
-    
     MBYPinchImageView *pinchView = (MBYPinchImageView *)[cell viewWithTag:1];
-    pinchView.image = [UIImage imageNamed:@"frog"];
+    pinchView.image = self.photos[indexPath.row];
     
+    //開いて直後の1枚はalphaが1.0
     cell.contentView.alpha = (_didShowFirstImage)? 0:1.0;
     
     _didShowFirstImage = YES;
@@ -185,7 +159,6 @@ UIScrollViewDelegate>
     NSIndexPath *indexPath = [NSIndexPath indexPathForItem:index inSection:0];
     [_collectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:NO];
 }
-
 
 
 
