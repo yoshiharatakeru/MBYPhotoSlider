@@ -14,6 +14,7 @@
 
 @property (nonatomic, weak) id delegate;
 @property (nonatomic,strong) NSArray *photos;
+@property (readonly) NSInteger centerIndex;
 
 - (id)initWithPhotos:(NSArray*)photos;
 - (void)openWithIndex:(NSInteger)index;
@@ -23,5 +24,6 @@
 
 @protocol MBYPhotoSliderDelegate <NSObject>
 
+- (void)photoSlider:(id)sender didScrollToIndex:(NSInteger)index;
 
 @end

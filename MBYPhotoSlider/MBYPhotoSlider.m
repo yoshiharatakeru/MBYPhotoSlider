@@ -106,6 +106,9 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
 {
+    [self.delegate photoSlider:self didScrollToIndex:self.centerIndex];
+    
+    //フェードインで表示
     for (UICollectionViewCell *cell in _collectionView.visibleCells) {
         [UIView animateWithDuration:0.1 animations:^{
             cell.contentView.alpha = 1.0;
@@ -139,6 +142,13 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
     //指定した番号の写真までスクロール
     NSIndexPath *indexPath = [NSIndexPath indexPathForItem:index inSection:0];
     [_collectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:NO];
+}
+
+
+- (NSInteger)centerIndex
+{
+    CGPoint offset = [_collectionView contentOffset];
+    return offset.x/_collectionView.bounds.size.width;
 }
 
 

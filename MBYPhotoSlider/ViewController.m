@@ -11,6 +11,7 @@
 #import "MBYPinchImageView.h"
 
 @interface ViewController ()
+<MBYPinchImageViewDelegate>
 
 @end
 
@@ -48,6 +49,11 @@
     [slider openWithIndex:2];
 }
 
+
+- (void)photoSlider:(id)sender didScrollToIndex:(NSInteger)index
+{
+    NSLog(@"center_index:%d", index);
+}
 
 
 @end
