@@ -33,13 +33,20 @@
         _scrollView.delegate  = self;
         
         //imageViewの配置
+        self.backgroundColor = [UIColor clearColor];
         _imageView = [UIImageView new];
+        _imageView.userInteractionEnabled = YES;
         [self addSubview:_scrollView];
+        
+        //シングルタップ(写真の枠外）
+        UITapGestureRecognizer *tapGesSingle = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapActionSingle:)];
+        [tapGesSingle setNumberOfTapsRequired:1];
+        [_scrollView addGestureRecognizer:tapGesSingle];
 
-        //ダブルタップ
-        UITapGestureRecognizer *tapGes = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapAction:)];
-        [tapGes setNumberOfTapsRequired:2];
-        [_scrollView addGestureRecognizer:tapGes];
+        //ダブルタップ(写真の枠内）
+        UITapGestureRecognizer *tapGesDouble = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapActionDouble:)];
+        [tapGesDouble setNumberOfTapsRequired:2];
+        [_imageView addGestureRecognizer:tapGesDouble];
         
         [_scrollView addSubview:_imageView];
     }
@@ -70,7 +77,7 @@
 }
 
 
-- (void)tapAction:(UITapGestureRecognizer*)sender
+- (void)tapActionDouble:(UITapGestureRecognizer*)sender
 {
     if (_didDoubleTapped) {//縮小
         [UIView animateWithDuration:0.2 animations:^{
@@ -95,6 +102,14 @@
     }
 }
 
+
+- (void)tapActionSingle:(UITapGestureRecognizer*)sender
+{
+    CGPoint point = [sender locationInView:_imageView];
+    if (point.y < 0 || point.y > _imageView.bounds.size.height) {
+        NSLog(@"close");
+    }
+}
 
 - (void)updateImageViewSize
 {
@@ -137,7 +152,7 @@
         rect.origin.x = floor((CGRectGetWidth(bounds) - CGRectGetWidth(rect)) * 0.5);
     }
     if (CGRectGetHeight(rect) < CGRectGetHeight(bounds)) {
-        rect.origin.y = floor((CGRectGetHeight(bounds) - CGRectGetHeight(rect)) * 0.5);
+        rect.origin.y = floor((CGRectGetHeight(bounds) - CGRectGetHeight(rect)) * 0.5f);
     }
     
     // Set image view frame

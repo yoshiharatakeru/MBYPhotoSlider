@@ -33,6 +33,7 @@ UIScrollViewDelegate>
     _didShowFirstImage = NO;
     self.view.frame = [[UIScreen mainScreen]bounds];
     self.photos = photos;
+    self.view.backgroundColor = [UIColor blackColor];
     
     //collectionViewLayout
     UICollectionViewFlowLayout *layout = [UICollectionViewFlowLayout new];
@@ -47,17 +48,11 @@ UIScrollViewDelegate>
     _collectionView.delegate = self;
     _collectionView.dataSource = self;
     _collectionView.bounces = NO;
-    _collectionView.backgroundColor = [UIColor whiteColor];
+    _collectionView.backgroundColor = [UIColor clearColor];
     
     [self.view addSubview:_collectionView];
     
     return self;
-}
-
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [self setBtnClose];
 }
 
 
@@ -90,6 +85,8 @@ UIScrollViewDelegate>
 
 - (void)updateCell:(MBYCollectionViewCell*)cell atIndexPath:(NSIndexPath*)indexPath
 {
+    
+    //pinch view
     MBYPinchImageView *pinchView = (MBYPinchImageView *)[cell viewWithTag:1];
     pinchView.image = self.photos[indexPath.row];
     
@@ -118,23 +115,6 @@ UIScrollViewDelegate>
 
 #pragma mark -
 #pragma mark plivate mehtods
-
-- (void)setBtnClose
-{
-    UIButton *btnClose = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    btnClose.frame = CGRectMake(30, 30, 100, 30);
-    [btnClose setTitle:@"Close" forState:UIControlStateNormal];
-    [btnClose addTarget:self action:@selector(btnClosePressed:) forControlEvents:UIControlEventTouchUpInside];
-    
-    [self.view addSubview:btnClose];
-}
-
-
-- (void)btnClosePressed:(UIButton*)sender
-{
-    [self.view removeFromSuperview];
-}
-
 
 - (void)close
 {

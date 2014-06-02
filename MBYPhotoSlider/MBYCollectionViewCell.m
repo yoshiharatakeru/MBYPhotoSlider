@@ -21,6 +21,9 @@
     self = [super initWithFrame:frame];
     
     if (self) {
+        
+        self.contentView.backgroundColor = [UIColor clearColor];
+        
         //pinchView
         _pinchView = [[MBYPinchImageView alloc]initWithFrame:self.bounds];
         _pinchView.tag = 1;
