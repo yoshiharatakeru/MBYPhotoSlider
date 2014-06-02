@@ -11,9 +11,11 @@
 #import "MBYCollectionViewCell.h"
 
 @interface MBYPhotoSlider ()
-<UICollectionViewDataSource, UICollectionViewDelegate>
+<UICollectionViewDataSource, UICollectionViewDelegate,
+UIScrollViewDelegate>
 {
     UICollectionView *_collectionView;
+    BOOL _didShowFirstImage;
 }
 
 @end
@@ -27,6 +29,8 @@
     if (!self) {
         return nil;
     }
+    
+    _didShowFirstImage = NO;
     
     //frame
     self.view.frame = [[UIScreen mainScreen]bounds];
@@ -115,14 +119,26 @@
     
     MBYPinchImageView *pinchView = (MBYPinchImageView *)[cell viewWithTag:1];
     pinchView.image = [UIImage imageNamed:@"frog"];
+    
+    cell.contentView.alpha = (_didShowFirstImage)? 0:1.0;
+    
+    _didShowFirstImage = YES;
 }
-
-
 
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     return collectionView.bounds.size;
+}
+
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    for (UICollectionViewCell *cell in _collectionView.visibleCells) {
+        [UIView animateWithDuration:0.1 animations:^{
+            cell.contentView.alpha = 1.0;
+        }];
+    }
 }
 
 
