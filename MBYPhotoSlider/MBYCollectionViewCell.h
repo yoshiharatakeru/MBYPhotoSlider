@@ -10,6 +10,4 @@
 
 @interface MBYCollectionViewCell : UICollectionViewCell
 
-@property(nonatomic,strong) UILabel *label;
-
 @end

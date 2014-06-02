@@ -36,7 +36,6 @@
         _imageView = [UIImageView new];
         [self addSubview:_scrollView];
 
-        
         //ダブルタップ
         UITapGestureRecognizer *tapGes = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapAction:)];
         [tapGes setNumberOfTapsRequired:2];
@@ -70,10 +69,10 @@
     }];
 }
 
+
 - (void)tapAction:(UITapGestureRecognizer*)sender
 {
-    
-    if (_didDoubleTapped) {
+    if (_didDoubleTapped) {//縮小
         [UIView animateWithDuration:0.2 animations:^{
             _scrollView.zoomScale = 1.0;
         } completion:^(BOOL finished) {
@@ -84,7 +83,7 @@
         }];
         _didDoubleTapped = NO;
     
-    }else{
+    }else{//拡大
         [UIView animateWithDuration:0.2 animations:^{
             _scrollView.zoomScale *= 2.0;
         } completion:^(BOOL finished) {
@@ -121,6 +120,7 @@
     _imageView.frame = rect;
 }
 
+
 - (void)updateImageViewOrigin
 {
     // Get image view frame
@@ -134,10 +134,10 @@
     // Compare image size and bounds
     rect.origin = CGPointZero;
     if (CGRectGetWidth(rect) < CGRectGetWidth(bounds)) {
-        rect.origin.x = floor((CGRectGetWidth(bounds) - CGRectGetWidth(rect)) * 0.5f);
+        rect.origin.x = floor((CGRectGetWidth(bounds) - CGRectGetWidth(rect)) * 0.5);
     }
     if (CGRectGetHeight(rect) < CGRectGetHeight(bounds)) {
-        rect.origin.y = floor((CGRectGetHeight(bounds) - CGRectGetHeight(rect)) * 0.5f);
+        rect.origin.y = floor((CGRectGetHeight(bounds) - CGRectGetHeight(rect)) * 0.5);
     }
     
     // Set image view frame
