@@ -37,7 +37,7 @@
 
 - (IBAction)btShowPhotosPressed:(id)sender {
     UIImage *photo_0 = [UIImage imageNamed:@"photo"];
-    UIImage *photo_1 = [UIImage imageNamed:@"frog"];
+    UIImage *photo_1 = [UIImage imageNamed:@"happy_200"];
     
     NSArray *photos = @[photo_0,photo_1,photo_0,photo_1];
     
