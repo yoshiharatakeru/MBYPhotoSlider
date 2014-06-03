@@ -80,25 +80,12 @@
 
 - (void)tapActionDouble:(UITapGestureRecognizer*)sender
 {
-    if (_didDoubleTapped) {//縮小
-        [UIView animateWithDuration:0.2 animations:^{
-            _scrollView.zoomScale = 1.0;
-        } completion:^(BOOL finished) {
-            
-            [UIView animateWithDuration:0.2 animations:^{
-                [self updateImageViewOrigin];
-            }];
-        }];
+    if (_didDoubleTapped) {
+        [_scrollView setZoomScale:1.0 animated:YES];
         _didDoubleTapped = NO;
-    
-    }else{//拡大
-        [UIView animateWithDuration:0.2 animations:^{
-            _scrollView.zoomScale *= 2.0;
-        } completion:^(BOOL finished) {
-            [UIView animateWithDuration:0.2 animations:^{
-                [self updateImageViewOrigin];
-            }];
-        }];
+        
+    }else{
+        [_scrollView setZoomScale:2.0 animated:YES];
         _didDoubleTapped = YES;
     }
 }
