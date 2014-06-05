@@ -152,7 +152,7 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
 - (void)updatePagingSignWithIndex:(NSInteger)index inNumberOfPhotos:(NSInteger)num
 {
     //選択された画像に従ってページサインの画像を準備
-    NSString *name = [NSString stringWithFormat:@"slider_%d_%d", num, index];
+    NSString *name = [NSString stringWithFormat:@"slider_%d_%d_w", num, index];
     UIImage  *img_page = [UIImage imageNamed:name];
     
     for (UIImageView *subView in self.view.subviews) {
