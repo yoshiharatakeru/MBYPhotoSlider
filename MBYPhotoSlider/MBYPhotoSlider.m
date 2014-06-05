@@ -189,7 +189,7 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
     [self didMoveToParentViewController:self.delegate];
     
     //指定した番号の写真までスクロール
-    [self performSelector:@selector(scrollToIndex:) withObject:[NSNumber numberWithInteger:index] afterDelay:0];
+    [self performSelector:@selector(scrollToIndex:) withObject:[NSNumber numberWithInteger:index] afterDelay:0.05];
 }
 
 
