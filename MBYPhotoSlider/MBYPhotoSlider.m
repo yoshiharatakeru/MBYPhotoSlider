@@ -35,8 +35,9 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
     self.photos = photos;
     self.view.backgroundColor = [UIColor blackColor];
     
-    [self setCollectionView];
     [self setPagingSign];
+    [self setCloseButton];
+    [self setCollectionView];
 
     return self;
 }
@@ -133,6 +134,15 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
 {
     [self.view removeFromSuperview];
     [self removeFromParentViewController];
+}
+
+
+- (void)setCloseButton
+{
+    UIButton *btn_close = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn_close.frame = self.view.bounds;
+    [btn_close addTarget:self action:@selector(close) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn_close];
 }
 
 
