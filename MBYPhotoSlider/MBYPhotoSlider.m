@@ -49,6 +49,7 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
     _collectionView.dataSource = self;
     _collectionView.bounces = NO;
     _collectionView.backgroundColor = [UIColor clearColor];
+    _collectionView.showsHorizontalScrollIndicator = NO;
     
     [self.view addSubview:_collectionView];
     
@@ -156,6 +157,11 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
     [self.view setBackgroundColor:color];
 }
 
+
+- (void)setActiveArea:(CGRect)rect
+{
+    _collectionView.frame = rect;
+}
 
 #pragma mark -
 #pragma mark pinchView
