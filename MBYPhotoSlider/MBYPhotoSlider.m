@@ -119,7 +119,10 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
 {
     [self updatePagingSignWithIndex:self.centerIndex+1 inNumberOfPhotos:self.photos.count];
-    [self.delegate photoSlider:self didScrollToIndex:self.centerIndex];
+    
+    if([self.delegate respondsToSelector:@selector(photoSlider:didScrollToIndex:)]){
+       [self.delegate photoSlider:self didScrollToIndex:self.centerIndex];
+    }
 }
 
 
