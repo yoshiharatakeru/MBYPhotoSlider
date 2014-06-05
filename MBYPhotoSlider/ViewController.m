@@ -38,8 +38,9 @@
 - (IBAction)btShowPhotosPressed:(id)sender {
     UIImage *photo_0 = [UIImage imageNamed:@"photo"];
     UIImage *photo_1 = [UIImage imageNamed:@"happy_200"];
+    UIImage *photo_2 = [UIImage imageNamed:@"frog"];
     
-    NSArray *photos = @[photo_0,photo_1,photo_0,photo_1];
+    NSArray *photos = @[photo_0,photo_1,photo_2,photo_1];
     
     MBYPhotoSlider *slider = [[MBYPhotoSlider alloc]initWithPhotos:photos];
     slider.delegate = self;

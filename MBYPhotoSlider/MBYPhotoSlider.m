@@ -36,6 +36,7 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
     self.view.backgroundColor = [UIColor blackColor];
     
     [self setCollectionView];
+    [self setPagingSign];
 
     return self;
 }
@@ -69,7 +70,6 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
     NSDictionary *viewsDic = NSDictionaryOfVariableBindings(_collectionView);
     
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[_collectionView]-52-|" options:0 metrics:nil views:viewsDic]];
-    
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|[_collectionView]|" options:0 metrics:nil views:viewsDic]];
 }
 
@@ -106,9 +106,7 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
     pinchView.delegate = self;
     
     //開いて直後の1枚はalphaが1.0
-    cell.contentView.alpha = (_didShowFirstImage)? 0:1.0;
-    
-    _didShowFirstImage = YES;
+    cell.contentView.alpha = (_didShowFirstImage)? 1:0;
 }
 
 
@@ -120,14 +118,8 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
 {
+    [self updatePagingSignWithIndex:self.centerIndex+1 inNumberOfPhotos:self.photos.count];
     [self.delegate photoSlider:self didScrollToIndex:self.centerIndex];
-    
-    //フェードインで表示
-    for (UICollectionViewCell *cell in _collectionView.visibleCells) {
-        [UIView animateWithDuration:0.1 animations:^{
-            cell.contentView.alpha = 1.0;
-        }];
-    }
 }
 
 
@@ -138,6 +130,36 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
 {
     [self.view removeFromSuperview];
     [self removeFromParentViewController];
+}
+
+
+- (void)setPagingSign
+{
+    //ページ表記の○の追加
+    UIImageView *iv_pagingSign = [UIImageView new];
+    [iv_pagingSign setTranslatesAutoresizingMaskIntoConstraints:NO];
+    [self.view addSubview:iv_pagingSign];
+    
+    //autolayout
+    NSDictionary *viewsDic = NSDictionaryOfVariableBindings(iv_pagingSign);
+    
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-134-[iv_pagingSign]-134-|" options:0 metrics:nil views:viewsDic]];
+    
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-(>=20)-[iv_pagingSign(12)]-20-|" options:0 metrics:nil views:viewsDic]];
+}
+
+
+- (void)updatePagingSignWithIndex:(NSInteger)index inNumberOfPhotos:(NSInteger)num
+{
+    //選択された画像に従ってページサインの画像を準備
+    NSString *name = [NSString stringWithFormat:@"slider_%d_%d", num, index];
+    UIImage  *img_page = [UIImage imageNamed:name];
+    
+    for (UIImageView *subView in self.view.subviews) {
+        if ([subView isKindOfClass:[UIImageView class]]) {
+            subView.image = img_page;
+        }
+    }
 }
 
 
@@ -154,8 +176,25 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
     [self didMoveToParentViewController:self.delegate];
     
     //指定した番号の写真までスクロール
-    NSIndexPath *indexPath = [NSIndexPath indexPathForItem:index inSection:0];
+    [self performSelector:@selector(scrollToIndex:) withObject:[NSNumber numberWithInteger:index] afterDelay:0];
+}
+
+
+- (void)scrollToIndex:(NSNumber*)index
+{
+    NSIndexPath *indexPath = [NSIndexPath indexPathForItem:index.intValue inSection:0];
     [_collectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:NO];
+    
+    [self updatePagingSignWithIndex:self.centerIndex+1 inNumberOfPhotos:self.photos.count];
+    
+    _didShowFirstImage = YES;
+    
+    //フェードインで表示
+    for (UICollectionViewCell *cell in _collectionView.visibleCells) {
+        [UIView animateWithDuration:0.1 animations:^{
+            cell.contentView.alpha = 1.0;
+        }];
+    }
 }
 
 
@@ -176,6 +215,7 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
 {
     _collectionView.frame = rect;
 }
+
 
 #pragma mark -
 #pragma mark pinchView
