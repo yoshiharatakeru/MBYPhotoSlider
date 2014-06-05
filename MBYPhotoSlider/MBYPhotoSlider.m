@@ -35,6 +35,17 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
     self.photos = photos;
     self.view.backgroundColor = [UIColor blackColor];
     
+    [self setCollectionView];
+
+    return self;
+}
+
+
+#pragma mark -
+#pragma mark collectionView
+
+- (void)setCollectionView
+{
     //collectionViewLayout
     UICollectionViewFlowLayout *layout = [UICollectionViewFlowLayout new];
     [layout setScrollDirection:UICollectionViewScrollDirectionHorizontal];
@@ -53,12 +64,15 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
     
     [self.view addSubview:_collectionView];
     
-    return self;
+    //collectionViewをautolayoutで常に下辺から52pxに設定
+    [_collectionView setTranslatesAutoresizingMaskIntoConstraints:NO];
+    NSDictionary *viewsDic = NSDictionaryOfVariableBindings(_collectionView);
+    
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[_collectionView]-52-|" options:0 metrics:nil views:viewsDic]];
+    
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|[_collectionView]|" options:0 metrics:nil views:viewsDic]];
 }
 
-
-#pragma mark -
-#pragma mark collectionView
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
