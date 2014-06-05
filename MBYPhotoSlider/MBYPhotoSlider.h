@@ -18,6 +18,7 @@
 
 - (id)initWithPhotos:(NSArray*)photos;
 - (void)openWithIndex:(NSInteger)index;
+- (void)setBackGroudColor:(UIColor*)color;
 
 @end
 

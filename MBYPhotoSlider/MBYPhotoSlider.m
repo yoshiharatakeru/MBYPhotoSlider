@@ -151,6 +151,12 @@ UIScrollViewDelegate, MBYPinchImageViewDelegate>
 }
 
 
+- (void)setBackGroudColor:(UIColor *)color
+{
+    [self.view setBackgroundColor:color];
+}
+
+
 #pragma mark -
 #pragma mark pinchView
 
